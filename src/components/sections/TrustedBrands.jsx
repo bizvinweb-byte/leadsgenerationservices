@@ -65,16 +65,6 @@ export default function TrustedBrands() {
       url: "https://brandmingo.com/Cloudinary-images/3_wehha6.png",
       alt: "Healthcare & High-Ticket Consultation Lead Generation Partner",
     },
-    {
-      name: "Automobile Dealership",
-      url: "https://brandmingo.com/Cloudinary-images/6_xzsqqo.png",
-      alt: "Automobile & Retail Ad Campaigns Managed by Brandmingo",
-    },
-    {
-      name: "Fintech Client",
-      url: "https://brandmingo.com/Cloudinary-images/7_wltr7h.png",
-      alt: "Fintech & BFSI Customer Acquisition Client of Brandmingo",
-    },
   ];
 
   // Smooth scroll handler
