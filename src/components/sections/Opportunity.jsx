@@ -2,17 +2,10 @@
 
 import Image from "next/image";
 import { ArrowRight, TrendingUp, ShieldCheck } from "lucide-react";
+import { useStrategyModal } from "@/context/StrategyModalContext";
 
 export default function Opportunity() {
-  const scrollToForm = (e) => {
-    if (e) e.preventDefault();
-    const formElement =
-      document.getElementById("strategy-call-form") ||
-      document.getElementById("hero");
-    if (formElement) {
-      formElement.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  const { openModal } = useStrategyModal();
 
   return (
     <section
@@ -99,7 +92,7 @@ export default function Opportunity() {
                 But it only works when it&apos;s handled by the right{" "}
                 <button
                   type="button"
-                  onClick={scrollToForm}
+                  onClick={() => openModal("The Opportunity Section")}
                   className="text-[#fb8002] font-semibold hover:underline decoration-[#fb8002]/40 underline-offset-4 cursor-pointer inline p-0 bg-transparent border-0 font-inherit"
                 >
                   Meta advertising agency.
@@ -111,7 +104,7 @@ export default function Opportunity() {
             <div className="pt-2 sm:pt-4 space-y-2.5">
               <button
                 type="button"
-                onClick={scrollToForm}
+                onClick={() => openModal("The Opportunity Section")}
                 className="inline-flex items-center justify-center gap-3 px-8 py-3.5 rounded-full bg-gradient-to-r from-[#fb8002] to-[#fa5500] hover:from-[#fa5500] hover:to-[#ea4e00] text-white font-bold text-sm tracking-wide shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/35 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300 group cursor-pointer"
               >
                 <span>BOOK A STRATEGY CALL</span>

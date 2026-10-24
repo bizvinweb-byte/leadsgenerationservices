@@ -9,21 +9,26 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Lead Generation Services in India | High-Quality B2B & B2C Leads Agency - Brandmingo",
+  title: "Lead Generation Services in Noida | #1 B2B & B2C Leads Agency - Brandmingo",
   description:
-    "Scale your business with India's premier lead generation agency by Brandmingo. We deliver verified, high-intent B2B & B2C sales leads using data-driven Meta Ads, Google Search, high-converting funnels & automated qualification.",
+    "Scale your business with the top lead generation services in Noida & Delhi NCR by Brandmingo. Verified, high-intent B2B & B2C sales leads using data-driven Meta Ads, Google Ads, high-converting funnels & automated qualification.",
   keywords: [
-    "lead generation services",
+    "lead generation services in noida",
+    "lead generation company in noida",
+    "lead generation agency noida",
+    "b2b lead generation company noida",
+    "lead generation services noida sector 62",
+    "digital marketing agency in noida",
+    "performance marketing agency in noida",
+    "meta ads agency noida",
+    "real estate lead generation noida",
+    "google ads agency noida",
+    "lead generation services in delhi ncr",
+    "b2b lead generation delhi ncr",
     "lead generation services in india",
-    "b2b lead generation company",
-    "lead generation agency india",
-    "real estate lead generation",
-    "high ticket client acquisition",
-    "meta ads lead generation",
-    "google ads lead generation agency",
-    "performance marketing lead gen",
-    "cost per lead optimization",
-    "qualified sales leads",
+    "lead generation company in india",
+    "high ticket client acquisition noida",
+    "brandmingo noida",
     "brandmingo lead generation",
     "brandmingo",
   ],
@@ -58,24 +63,24 @@ export const metadata = {
     type: "website",
     locale: "en_IN",
     url: "https://leadsgenerationservices.in",
-    siteName: "Lead Generation Services India | Brandmingo",
-    title: "Lead Generation Services in India | High-Quality B2B & B2C Leads Agency - Brandmingo",
+    siteName: "Lead Generation Services in Noida | Brandmingo",
+    title: "Lead Generation Services in Noida | #1 B2B & B2C Leads Agency - Brandmingo",
     description:
-      "Drive verified, high-converting sales pipeline with India's top lead generation company. Meta Ads, Google Ads & automated CRO funnels.",
+      "Looking for verified, high-intent sales leads in Noida & Delhi NCR? Partner with Brandmingo for data-driven Meta Ads, Google Ads & automated qualifying funnels.",
     images: [
       {
         url: "/images/logo/white-logo.png",
         width: 1200,
         height: 630,
-        alt: "Brandmingo - Lead Generation Services in India",
+        alt: "Brandmingo - Lead Generation Services in Noida",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lead Generation Services in India | Brandmingo",
+    title: "Lead Generation Services in Noida | Brandmingo",
     description:
-      "Get high-converting, sales-qualified B2B & B2C leads using performance marketing funnels by Brandmingo.",
+      "Get high-converting, sales-qualified B2B & B2C leads in Noida & Delhi NCR using performance marketing funnels by Brandmingo.",
     images: ["/images/logo/white-logo.png"],
   },
   category: "Business & Marketing",
@@ -94,9 +99,8 @@ export default function RootLayout({ children }) {
         logo: "https://leadsgenerationservices.in/images/logo/white-logo.png",
         sameAs: [
           "https://www.linkedin.com/company/brandmingo",
-          "https://www.instagram.com/brandmingo",
+          "https://instagram.com/brandmingo",
           "https://www.facebook.com/brandmingo",
-          "https://www.youtube.com/@brandmingo",
           "https://x.com/brandmingo",
         ],
         contactPoint: {
@@ -110,7 +114,7 @@ export default function RootLayout({ children }) {
       {
         "@type": "ProfessionalService",
         "@id": "https://leadsgenerationservices.in/#service",
-        name: "Lead Generation Services by Brandmingo",
+        name: "Lead Generation Services in Noida by Brandmingo",
         url: "https://leadsgenerationservices.in",
         parentOrganization: {
           "@id": "https://brandmingo.com/#organization",
@@ -120,32 +124,53 @@ export default function RootLayout({ children }) {
         priceRange: "$$",
         address: {
           "@type": "PostalAddress",
+          streetAddress: "Sector 62",
           addressLocality: "Noida",
           addressRegion: "Uttar Pradesh",
+          postalCode: "201309",
           addressCountry: "IN",
         },
-        areaServed: {
-          "@type": "Country",
-          name: "India",
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: "28.6280",
+          longitude: "77.3649",
         },
+        areaServed: [
+          {
+            "@type": "City",
+            name: "Noida",
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Delhi NCR",
+          },
+          {
+            "@type": "City",
+            name: "Greater Noida",
+          },
+          {
+            "@type": "Country",
+            name: "India",
+          },
+        ],
         hasOfferCatalog: {
           "@type": "OfferCatalog",
-          name: "Lead Generation Services",
+          name: "Lead Generation Services Noida",
           itemListElement: [
             {
               "@type": "Offer",
               itemOffered: {
                 "@type": "Service",
-                name: "B2B Lead Generation",
-                description: "High-intent B2B sales leads via LinkedIn, Google Ads & Email Funnels.",
+                name: "B2B Lead Generation Services Noida",
+                description: "High-intent B2B sales leads for Noida & Delhi NCR companies via LinkedIn, Google Ads & ABM funnels.",
               },
             },
             {
               "@type": "Offer",
               itemOffered: {
                 "@type": "Service",
-                name: "Real Estate & High-Ticket Lead Generation",
-                description: "Pre-qualified buyer and investor leads for real estate developers & luxury brands.",
+                name: "Real Estate & High-Ticket Lead Generation Noida",
+                description: "Pre-qualified property buyers and investors leads for Noida & Expressway real estate developers.",
               },
             },
             {
@@ -153,7 +178,23 @@ export default function RootLayout({ children }) {
               itemOffered: {
                 "@type": "Service",
                 name: "Meta & Google Ads Funnel Optimization",
-                description: "Data-driven paid media campaigns optimized for lowest cost per qualified lead.",
+                description: "Data-driven paid media campaigns optimized for lowest cost per qualified lead in Noida & pan-India.",
+              },
+            },
+            {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Service",
+                name: "Education & Study Abroad Student Enquiries",
+                description: "Scalable student recruitment funnels for MBBS, B.Tech & Overseas Counselling admissions.",
+              },
+            },
+            {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Service",
+                name: "E-Commerce & D2C Revenue Scaling",
+                description: "High ROAS paid customer acquisition funnels for consumer brands.",
               },
             },
           ],
@@ -163,11 +204,73 @@ export default function RootLayout({ children }) {
         "@type": "WebSite",
         "@id": "https://leadsgenerationservices.in/#website",
         url: "https://leadsgenerationservices.in",
-        name: "Lead Generation Services India",
+        name: "Lead Generation Services in Noida | Brandmingo",
         publisher: {
           "@id": "https://brandmingo.com/#organization",
         },
         inLanguage: "en-IN",
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://leadsgenerationservices.in/#faq",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "Which is the best lead generation agency in Noida?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Brandmingo is widely recognized as the leading lead generation agency in Noida and Delhi NCR, delivering verified, high-intent B2B and B2C sales leads using data-driven Meta Ads, Google Ads, and custom qualification funnels.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Can Brandmingo handle lead generation for real estate developers in Noida?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Yes, Brandmingo specializes in Real Estate lead generation for developers across Noida Expressway, Central Noida, and Greater Noida, delivering verified investor and luxury home-buyer inquiries.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "How do you filter out fake or low-intent leads in Noida campaigns?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "We implement custom lead forms with multi-step qualifying questions (budget, intent, timeline), OTP/phone verification, and strict audience exclusion rules to eliminate unqualified inquiries.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "How quickly can we launch campaigns and start receiving leads?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Our complete setup—from campaign audit, funnel build, ad creative design, and tracking installation—takes 3 to 5 business days, after which qualified leads start flowing immediately.",
+            },
+          },
+        ],
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://leadsgenerationservices.in/#breadcrumbs",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://leadsgenerationservices.in",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Lead Generation Services in Noida",
+            item: "https://leadsgenerationservices.in/#services",
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: "Case Studies",
+            item: "https://leadsgenerationservices.in/#case-study",
+          },
+        ],
       },
     ],
   };
@@ -188,4 +291,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-

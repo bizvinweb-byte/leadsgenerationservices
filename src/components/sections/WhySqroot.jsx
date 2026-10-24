@@ -10,17 +10,10 @@ import {
   PieChart,
   ArrowRight,
 } from "lucide-react";
+import { useStrategyModal } from "@/context/StrategyModalContext";
 
 export default function WhySqroot() {
-  const scrollToForm = (e) => {
-    if (e) e.preventDefault();
-    const formElement =
-      document.getElementById("strategy-call-form") ||
-      document.getElementById("hero");
-    if (formElement) {
-      formElement.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  const { openModal } = useStrategyModal();
 
   const differentiators = [
     {
@@ -158,7 +151,7 @@ export default function WhySqroot() {
             <div className="pt-2 sm:pt-3 space-y-2.5">
               <button
                 type="button"
-                onClick={scrollToForm}
+                onClick={() => openModal("Why Sqroot Section")}
                 className="inline-flex items-center justify-center gap-3 px-8 py-3.5 rounded-full bg-gradient-to-r from-[#fb8002] to-[#fa5500] hover:from-[#fa5500] hover:to-[#ea4e00] text-white font-bold text-sm tracking-wide shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/35 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300 group cursor-pointer"
               >
                 <span>BOOK A STRATEGY CALL</span>

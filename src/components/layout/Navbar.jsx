@@ -97,7 +97,7 @@ export default function Navbar() {
               <div className="relative h-7 sm:h-8 lg:h-9 xl:h-9.5 w-28 sm:w-34 lg:w-38 xl:w-42 transition-transform duration-200 group-hover:scale-105">
                 <Image
                   src="/images/logo/white-logo.png"
-                  alt="Brandmingo Logo"
+                  alt="Brandmingo - Performance Marketing & Lead Generation Services in India"
                   fill
                   priority
                   sizes="(max-width: 640px) 120px, (max-width: 1024px) 150px, 175px"
@@ -177,7 +177,7 @@ export default function Navbar() {
               <div className="relative h-8 w-34">
                 <Image
                   src="/images/logo/white-logo.png"
-                  alt="Brandmingo Logo"
+                  alt="Brandmingo - Performance Marketing & Lead Generation Services in India"
                   fill
                   priority
                   className="object-contain object-left"

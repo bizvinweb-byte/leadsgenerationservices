@@ -1,8 +1,10 @@
 "use client";
 
 import { Search, ArrowRight } from "lucide-react";
+import { useStrategyModal } from "@/context/StrategyModalContext";
 
 export default function SearchingForUs() {
+  const { openModal } = useStrategyModal();
   const searchQueries = [
     {
       id: "q1",
@@ -47,13 +49,6 @@ export default function SearchingForUs() {
       fullQuery: "meta ads agency for e-commerce",
     },
   ];
-
-  const handleCtaClick = () => {
-    const target = document.getElementById("strategy-call-form");
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth", block: "center" });
-    }
-  };
 
   // Structured Data for Google SEO indexing
   const searchIntentSchema = {
@@ -205,7 +200,7 @@ export default function SearchingForUs() {
             {/* Right CTA Button */}
             <button
               type="button"
-              onClick={handleCtaClick}
+              onClick={() => openModal("Searching For Us Section")}
               className="inline-flex items-center justify-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3 rounded-full bg-gradient-to-r from-[#fa5500] to-[#fb8002] hover:from-[#e54e00] hover:to-[#ea7600] text-white text-xs sm:text-sm font-bold tracking-wider uppercase shadow-[0_4px_16px_rgba(250,85,0,0.28)] hover:shadow-[0_6px_22px_rgba(250,85,0,0.38)] active:scale-95 transition-all duration-200 shrink-0 cursor-pointer"
             >
               <span>BOOK A STRATEGY CALL</span>

@@ -1,11 +1,13 @@
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { FloatingActions } from "@/components/ui";
+import { StrategyModalProvider } from "@/context/StrategyModalContext";
 import {
   Hero,
   TrustedBrands,
   Opportunity,
   CaseStudy,
+  RealCampaigns,
   WhySqroot,
   OurServices,
   PerformanceMarketing,
@@ -17,9 +19,10 @@ import {
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col bg-white text-slate-900 selection:bg-[#fb8002] selection:text-white">
-      {/* Floating Quick Action Buttons (Call + WhatsApp) */}
-      <FloatingActions />
+    <StrategyModalProvider>
+      <div className="min-h-screen flex flex-col bg-white text-slate-900 selection:bg-[#fb8002] selection:text-white">
+        {/* Floating Quick Action Buttons (Call + WhatsApp) */}
+        <FloatingActions />
 
       {/* 1. Header & Navigation */}
       <Navbar />
@@ -35,8 +38,11 @@ export default function Home() {
         {/* 4. The Opportunity */}
         <Opportunity />
 
-        {/* 5. Case Study */}
+        {/* 5. Case Study Impact & Metrics */}
         <CaseStudy />
+
+        {/* 5b. Real Campaigns & Measurable Growth (Live Meta Ads Manager Carousel) */}
+        <RealCampaigns />
 
         {/* 6. Why SQROOT */}
         <WhySqroot />
@@ -63,5 +69,6 @@ export default function Home() {
       {/* 13. Footer */}
       <Footer />
     </div>
+    </StrategyModalProvider>
   );
 }

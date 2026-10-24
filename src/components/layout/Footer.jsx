@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useStrategyModal } from "@/context/StrategyModalContext";
 import {
   Mail,
   TrendingUp,
@@ -16,11 +17,11 @@ import {
   FaLinkedinIn,
   FaInstagram,
   FaFacebookF,
-  FaYoutube,
   FaXTwitter,
 } from "react-icons/fa6";
 
 export default function Footer() {
+  const { openModal } = useStrategyModal();
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
 
@@ -40,46 +41,57 @@ export default function Footer() {
     }
   };
 
+  // Smooth scroll handler for Navbar tabs in Footer
+  const handleNavScroll = (e, href) => {
+    e.preventDefault();
+    const id = href.replace("#", "");
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const servicesLinks = [
-    { label: "Meta Ads (FB & Insta)", href: "#performance-marketing" },
-    { label: "Google & PMax Ads", href: "#performance-marketing" },
-    { label: "YouTube Ad Funnels", href: "#performance-marketing" },
-    { label: "Creative Strategy", href: "#services" },
-    { label: "Funnel CRO", href: "#services" },
-    { label: "E-Commerce Scaling", href: "#opportunity" },
-    { label: "Lead Gen Funnels", href: "#process" },
+    { label: "Meta Ads (FB & Insta)" },
+    { label: "Google & PMax Ads" },
+    { label: "YouTube Ad Funnels" },
+    { label: "Creative Strategy" },
+    { label: "Funnel CRO" },
+    { label: "E-Commerce Scaling" },
+    { label: "Lead Gen Funnels" },
   ];
 
   const solutionLinks = [
-    { label: "D2C & E-Commerce", href: "#case-study" },
-    { label: "Real Estate Growth", href: "#case-study" },
-    { label: "B2B & SaaS Funnels", href: "#case-study" },
-    { label: "High-Ticket Pipeline", href: "#case-study" },
-    { label: "EdTech Scaling", href: "#case-study" },
-    { label: "Automobile & Retail", href: "#case-study" },
-    { label: "Ad Account Audit", href: "#get-started" },
+    { label: "D2C & E-Commerce" },
+    { label: "Real Estate Growth" },
+    { label: "B2B & SaaS Funnels" },
+    { label: "High-Ticket Pipeline" },
+    { label: "EdTech Scaling" },
+    { label: "Automobile & Retail" },
+    { label: "Ad Account Audit" },
   ];
 
-  const companyLinks = [
-    { label: "About Us", href: "#why-sqroot" },
+  // Exact Navbar tabs matching Navbar.jsx sequence & destinations
+  const navTabs = [
+    { label: "Home", href: "#hero" },
+    { label: "Opportunity", href: "#opportunity" },
     { label: "Case Studies", href: "#case-study" },
-    { label: "Why Brandmingo", href: "#why-sqroot" },
-    { label: "Our Process", href: "#process" },
-    { label: "Client Reviews", href: "#reviews" },
+    { label: "Why Us", href: "#why-sqroot" },
+    { label: "Services", href: "#services" },
+    { label: "Process", href: "#process" },
     { label: "Contact Us", href: "#get-started" },
   ];
 
   const popularSearches = [
-    "Performance Marketing Agency India",
-    "Meta Ads Agency",
-    "Google Ads Expert",
+    "Lead Generation Services in Noida",
+    "Performance Marketing Agency Noida",
+    "Meta Ads Agency Noida",
+    "B2B Lead Generation Delhi NCR",
+    "Real Estate Lead Generation Noida",
+    "Google Ads Expert Noida",
     "E-Commerce ROAS Optimization",
-    "Facebook Ad Scaling",
     "High-Ticket Lead Generation",
-    "Conversion Rate Optimization",
-    "Creative Strategy Agency",
-    "Shopify Growth Marketing",
-    "Brandmingo Scaling",
+    "Brandmingo Noida",
   ];
 
   return (
@@ -101,7 +113,7 @@ export default function Footer() {
               <div className="relative h-8 sm:h-9 lg:h-10 w-36 sm:w-42 lg:w-46 transition-transform duration-200 group-hover:scale-105">
                 <Image
                   src="/images/logo/white-logo.png"
-                  alt="Brandmingo Logo"
+                  alt="Brandmingo - Top Performance Marketing & Lead Generation Company in India"
                   fill
                   priority
                   sizes="(max-width: 640px) 140px, 180px"
@@ -174,7 +186,7 @@ export default function Footer() {
               Services
             </h3>
 
-            {/* Links List */}
+            {/* Links List - clicking opens strategy call popup */}
             <ul
               className={`space-y-1.5 pt-1.5 lg:pt-0 ${
                 openSection === "services" ? "block" : "hidden lg:block"
@@ -182,13 +194,14 @@ export default function Footer() {
             >
               {servicesLinks.map((item) => (
                 <li key={item.label}>
-                  <Link
-                    href={item.href}
-                    className="group inline-flex items-center gap-1.5 text-xs text-white/85 hover:text-white transition-colors py-0.5 whitespace-nowrap"
+                  <button
+                    type="button"
+                    onClick={() => openModal(`Footer Service: ${item.label}`)}
+                    className="group inline-flex items-center gap-1.5 text-xs text-white/85 hover:text-white transition-colors py-0.5 whitespace-nowrap cursor-pointer text-left font-inherit"
                   >
                     <span>{item.label}</span>
                     <ChevronRight className="w-3 h-3 text-white/60 group-hover:text-white group-hover:translate-x-0.5 transition-transform shrink-0" />
-                  </Link>
+                  </button>
                 </li>
               ))}
             </ul>
@@ -215,6 +228,7 @@ export default function Footer() {
               Solutions
             </h3>
 
+            {/* Links List - clicking opens strategy call popup */}
             <ul
               className={`space-y-1.5 pt-1.5 lg:pt-0 ${
                 openSection === "solutions" ? "block" : "hidden lg:block"
@@ -222,19 +236,20 @@ export default function Footer() {
             >
               {solutionLinks.map((item) => (
                 <li key={item.label}>
-                  <Link
-                    href={item.href}
-                    className="group inline-flex items-center gap-1.5 text-xs text-white/85 hover:text-white transition-colors py-0.5 whitespace-nowrap"
+                  <button
+                    type="button"
+                    onClick={() => openModal(`Footer Solution: ${item.label}`)}
+                    className="group inline-flex items-center gap-1.5 text-xs text-white/85 hover:text-white transition-colors py-0.5 whitespace-nowrap cursor-pointer text-left font-inherit"
                   >
                     <span>{item.label}</span>
                     <ChevronRight className="w-3 h-3 text-white/60 group-hover:text-white group-hover:translate-x-0.5 transition-transform shrink-0" />
-                  </Link>
+                  </button>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Column 4: Company (Desktop: Open List | Mobile: Tap to Expand) */}
+          {/* Column 4: Company / Navbar Tabs (Desktop: Open List | Mobile: Tap to Expand) */}
           <div className="border-t border-white/15 pt-3 lg:border-t-0 lg:pt-0">
             <button
               type="button"
@@ -255,20 +270,22 @@ export default function Footer() {
               Company
             </h3>
 
+            {/* Exact Navbar Tabs sequence - Clickable smooth scroll */}
             <ul
               className={`space-y-1.5 pt-1.5 lg:pt-0 ${
                 openSection === "company" ? "block" : "hidden lg:block"
               }`}
             >
-              {companyLinks.map((item) => (
+              {navTabs.map((item) => (
                 <li key={item.label}>
-                  <Link
+                  <a
                     href={item.href}
-                    className="group inline-flex items-center gap-1.5 text-xs text-white/85 hover:text-white transition-colors py-0.5 whitespace-nowrap"
+                    onClick={(e) => handleNavScroll(e, item.href)}
+                    className="group inline-flex items-center gap-1.5 text-xs text-white/85 hover:text-white transition-colors py-0.5 whitespace-nowrap cursor-pointer"
                   >
                     <span>{item.label}</span>
                     <ChevronRight className="w-3 h-3 text-white/60 group-hover:text-white group-hover:translate-x-0.5 transition-transform shrink-0" />
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -312,52 +329,43 @@ export default function Footer() {
               )}
             </form>
 
-            {/* Social Icons (5 Circular Translucent Pills) */}
-            <div className="flex items-center gap-1.5 pt-1">
+            {/* Social Icons (4 Circular Translucent Pills) */}
+            <div className="flex items-center gap-2 pt-1">
               <a
                 href="https://www.linkedin.com/company/brandmingo"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Brandmingo on LinkedIn"
-                className="w-7 h-7 rounded-full bg-white/15 hover:bg-white text-white hover:text-[#fb8002] flex items-center justify-center transition-all duration-200 hover:scale-110 shadow-xs"
+                className="w-8 h-8 rounded-full bg-white/15 hover:bg-white text-white hover:text-[#fb8002] flex items-center justify-center transition-all duration-200 hover:scale-110 shadow-xs cursor-pointer"
               >
-                <FaLinkedinIn className="w-3 h-3" />
+                <FaLinkedinIn className="w-3.5 h-3.5" />
               </a>
               <a
-                href="https://www.instagram.com/brandmingo"
+                href="https://instagram.com/brandmingo"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Brandmingo on Instagram"
-                className="w-7 h-7 rounded-full bg-white/15 hover:bg-white text-white hover:text-[#fb8002] flex items-center justify-center transition-all duration-200 hover:scale-110 shadow-xs"
+                className="w-8 h-8 rounded-full bg-white/15 hover:bg-white text-white hover:text-[#fb8002] flex items-center justify-center transition-all duration-200 hover:scale-110 shadow-xs cursor-pointer"
               >
-                <FaInstagram className="w-3 h-3" />
+                <FaInstagram className="w-3.5 h-3.5" />
               </a>
               <a
                 href="https://www.facebook.com/brandmingo"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Brandmingo on Facebook"
-                className="w-7 h-7 rounded-full bg-white/15 hover:bg-white text-white hover:text-[#fb8002] flex items-center justify-center transition-all duration-200 hover:scale-110 shadow-xs"
+                className="w-8 h-8 rounded-full bg-white/15 hover:bg-white text-white hover:text-[#fb8002] flex items-center justify-center transition-all duration-200 hover:scale-110 shadow-xs cursor-pointer"
               >
-                <FaFacebookF className="w-3 h-3" />
-              </a>
-              <a
-                href="https://www.youtube.com/@brandmingo"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Brandmingo on YouTube"
-                className="w-7 h-7 rounded-full bg-white/15 hover:bg-white text-white hover:text-[#fb8002] flex items-center justify-center transition-all duration-200 hover:scale-110 shadow-xs"
-              >
-                <FaYoutube className="w-3 h-3" />
+                <FaFacebookF className="w-3.5 h-3.5" />
               </a>
               <a
                 href="https://x.com/brandmingo"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Brandmingo on X Twitter"
-                className="w-7 h-7 rounded-full bg-white/15 hover:bg-white text-white hover:text-[#fb8002] flex items-center justify-center transition-all duration-200 hover:scale-110 shadow-xs"
+                className="w-8 h-8 rounded-full bg-white/15 hover:bg-white text-white hover:text-[#fb8002] flex items-center justify-center transition-all duration-200 hover:scale-110 shadow-xs cursor-pointer"
               >
-                <FaXTwitter className="w-3 h-3" />
+                <FaXTwitter className="w-3.5 h-3.5" />
               </a>
             </div>
           </div>
@@ -386,12 +394,13 @@ export default function Footer() {
           <div className="flex flex-wrap items-center gap-x-2.5 gap-y-1 text-white/90 leading-relaxed text-[11px] sm:text-[11.5px]">
             {popularSearches.map((item, index) => (
               <span key={item} className="inline-flex items-center gap-2.5">
-                <Link
-                  href="#services"
-                  className="hover:text-white hover:underline transition-colors"
+                <button
+                  type="button"
+                  onClick={() => openModal(`Footer Popular Search: ${item}`)}
+                  className="hover:text-white hover:underline transition-colors text-left cursor-pointer font-inherit"
                 >
                   {item}
-                </Link>
+                </button>
                 {index < popularSearches.length - 1 && (
                   <span className="text-white/40">|</span>
                 )}

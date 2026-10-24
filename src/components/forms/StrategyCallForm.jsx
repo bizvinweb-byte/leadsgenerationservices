@@ -16,6 +16,7 @@ import {
   Sparkles,
   Lock,
   Check,
+  X,
 } from "lucide-react";
 
 export default function StrategyCallForm({
@@ -26,6 +27,7 @@ export default function StrategyCallForm({
   className = "",
   id,
   privacyText = "Your information is 100% secure and will never be shared with anyone.",
+  onClose = null,
 }) {
   const [formData, setFormData] = useState({
     name: "",
@@ -109,16 +111,36 @@ export default function StrategyCallForm({
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!validateForm()) return;
 
     setIsSubmitting(true);
 
-    setTimeout(() => {
+    try {
+      await fetch("/api/lead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: formData.name.trim(),
+          email: formData.email.trim(),
+          phone: formData.phone.trim(),
+          businessName: formData.businessName.trim(),
+          industry: formData.industry,
+          goal: formData.goal,
+          message: formData.message.trim(),
+          source: source || "Website Lead",
+          submittedAt: new Date().toLocaleString("en-IN", {
+            timeZone: "Asia/Kolkata",
+          }),
+        }),
+      });
+    } catch (err) {
+      console.error("Lead submission error:", err);
+    } finally {
       setIsSubmitting(false);
       setIsSubmitted(true);
-    }, 600);
+    }
   };
 
   const industryOptions = [
@@ -130,6 +152,7 @@ export default function StrategyCallForm({
     "B2B SaaS & Tech Enterprise",
     "Automobile & Dealerships",
     "High-Ticket Consulting & Services",
+    "Other",
   ];
 
   const goalOptions = [
@@ -138,6 +161,7 @@ export default function StrategyCallForm({
     "Lower Cost Per Lead (CPL) & CAC",
     "Full-Funnel Paid Ads Optimization",
     "Launch & Test New Market / Product",
+    "Other",
   ];
 
   const whatsappMessage = encodeURIComponent(
@@ -157,6 +181,18 @@ export default function StrategyCallForm({
     >
       {/* Decorative Subtle Corner Accent */}
       <div className="absolute top-0 right-8 w-24 h-1 bg-gradient-to-r from-transparent via-[#fb8002]/40 to-transparent rounded-full pointer-events-none" />
+
+      {/* Modal Close Button */}
+      {onClose && (
+        <button
+          type="button"
+          onClick={onClose}
+          aria-label="Close form popup"
+          className="absolute top-4 right-4 z-20 w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-800 flex items-center justify-center transition-all cursor-pointer shadow-xs active:scale-95"
+        >
+          <X className="w-4 h-4" />
+        </button>
+      )}
 
       {/* Form Tag Badge */}
       {tagText && (
