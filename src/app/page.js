@@ -17,6 +17,7 @@ import {
   GetStarted,
 } from "@/components/sections";
 
+
 export default function Home() {
   return (
     <StrategyModalProvider>
