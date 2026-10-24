@@ -67,6 +67,61 @@ export default function ClientReviews() {
       content:
         "I can confidently say that they are best development company. I would definitely recommend their services to anyone seeking top-tier development solutions.",
     },
+    {
+      id: "rev-6",
+      name: "Virajethnic",
+      role: "Fashion D2C Brand • 1 photo",
+      time: "Recent • New",
+      rating: 5,
+      avatarBg: "bg-[#d81b60]",
+      avatarText: "VE",
+      content:
+        "Brandmingo helped us with logo design and Shopify website development for our women’s clothing brand. The team was supportive, and we’re happy with the results.",
+    },
+    {
+      id: "rev-7",
+      name: "Briller Enterprises",
+      role: "Corporate Partner • 2 reviews",
+      time: "2 years ago",
+      rating: 5,
+      avatarBg: "bg-[#0288d1]",
+      avatarText: "BE",
+      content:
+        "Very good team and very supported team Specially Tarun sir and Anjana Madam very supportive team members. We will go continue working with many projects",
+    },
+    {
+      id: "rev-8",
+      name: "Bandhiya Hardik",
+      role: "Verified Client • 2 reviews",
+      time: "2 years ago",
+      rating: 5,
+      avatarBg: "bg-[#37474f]",
+      avatarText: "BH",
+      content:
+        "Very Creative and Supportive Team. I recommend Brandmingo to all of the people who wants to grow their business.",
+    },
+    {
+      id: "rev-9",
+      name: "Vikash Kumar",
+      role: "Tech Client • 5 reviews",
+      time: "2 years ago",
+      rating: 5,
+      avatarBg: "bg-[#673ab7]",
+      avatarText: "V",
+      content:
+        "Without a doubt, I can assert that they are the premier development company. I wholeheartedly endorse their services to anyone in pursuit of top-notch development solutions.",
+    },
+    {
+      id: "rev-10",
+      name: "Chandni Gupta",
+      role: "Verified Client • 3 reviews",
+      time: "2 years ago",
+      rating: 5,
+      avatarBg: "bg-[#8e24aa]",
+      avatarText: "C",
+      content:
+        "You had done a great job, on time and excellent work, my experience on website and other templates are great. Thanks 👍",
+    },
   ];
 
   const updateScrollState = () => {
@@ -303,9 +358,9 @@ export default function ClientReviews() {
             {/* Step Counter */}
             <span className="text-xs font-semibold text-slate-500">
               <span className="text-[#fb8002] font-bold">
-                Review 0{activeIndex + 1}
+                Review {activeIndex + 1 < 10 ? `0${activeIndex + 1}` : activeIndex + 1}
               </span>{" "}
-              / 0{reviews.length}
+              / {reviews.length < 10 ? `0${reviews.length}` : reviews.length}
             </span>
 
             {/* Indicator Dots */}
