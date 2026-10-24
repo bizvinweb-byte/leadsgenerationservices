@@ -64,12 +64,12 @@ export default function WhySqroot() {
             </div>
 
             {/* Main Headline with Hand-Drawn Curve Underline */}
-            <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-bold text-[#0b0f19] tracking-tight leading-[1.16]">
-              Why Choose Brandmingo as
-              <br className="hidden sm:inline" />
-              {" "}Your{" "}
+            <h2 className="text-3xl sm:text-4xl lg:text-[42px] xl:text-[44px] font-bold text-[#0b0f19] tracking-tight leading-[1.2]">
+              Why Choose Brandmingo
+              <br className="hidden sm:block" />
+              {" "}as Your{" "}
               <span className="text-[#fb8002]">
-                <span className="relative inline-block">
+                <span className="relative inline-block whitespace-nowrap">
                   Meta Ads Partner?
                   {/* Hand-drawn double-stroke curve underline under 'Meta Ads Partner?' */}
                   <svg
@@ -158,9 +158,9 @@ export default function WhySqroot() {
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
               </button>
 
-              <div className="flex items-center gap-2 text-xs text-slate-400 font-medium">
+              <div className="flex items-center gap-2 text-xs text-slate-500 font-medium">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#fb8002] animate-ping" />
-                <span>Take Action Now! October Slots are Filling Fast</span>
+                <span>Limited Discovery Call Slots Available This Month</span>
               </div>
             </div>
           </div>
