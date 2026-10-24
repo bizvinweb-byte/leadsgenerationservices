@@ -41,7 +41,7 @@ export default function OurServices() {
       id: "03",
       title: "Meta Ads Creative Strategy",
       description:
-        "Meta is a creative-first platform. Even the best targeting fails without the right creative strategy. At Sqroot, we have an in-house team of copywriters, designers, editors, and media buyers who work together to test, iterate, and scale creatives.",
+        "Meta is a creative-first platform. Even the best targeting fails without the right creative strategy. At Brandmingo, we have an in-house team of copywriters, designers, editors, and media buyers who work together to test, iterate, and scale creatives.",
       checklistHeading: "We Create:",
       items: [
         "Scroll-stopping visuals",

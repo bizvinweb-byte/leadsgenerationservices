@@ -1,5 +1,5 @@
 export const SITE_CONFIG = {
-  name: "SQROOT",
+  name: "Brandmingo",
   tagline: "High-ROI Performance Marketing Agency",
   description:
     "We scale ambitious brands with data-backed paid advertising, creative growth funnels, and conversion rate optimization.",
@@ -25,7 +25,7 @@ export const SITE_CONFIG = {
     { label: "Home", href: "#hero" },
     { label: "The Opportunity", href: "#opportunity" },
     { label: "Case Studies", href: "#case-study" },
-    { label: "Why SQROOT", href: "#why-sqroot" },
+    { label: "Why Brandmingo", href: "#why-sqroot" },
     { label: "Services", href: "#services" },
     { label: "Process", href: "#process" },
     { label: "Reviews", href: "#reviews" },

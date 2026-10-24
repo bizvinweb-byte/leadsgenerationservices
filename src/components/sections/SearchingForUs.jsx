@@ -190,7 +190,7 @@ export default function SearchingForUs() {
             {/* Left Copy */}
             <div className="space-y-0.5">
               <h3 className="text-base sm:text-lg lg:text-xl font-bold text-[#0b0f19] tracking-tight">
-                Then it&apos;s time to speak to Sqroot.
+                Then it&apos;s time to speak to Brandmingo.
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 font-medium">
                 Let&apos;s turn your ad spend into real business growth.

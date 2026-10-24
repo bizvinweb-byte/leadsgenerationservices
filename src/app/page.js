@@ -46,7 +46,7 @@ export default function Home() {
         {/* 5b. Real Campaigns & Measurable Growth (Live Meta Ads Manager Carousel) */}
         <RealCampaigns />
 
-        {/* 6. Why SQROOT */}
+        {/* 6. Why Brandmingo */}
         <WhySqroot />
 
         {/* 7. Our Services */}

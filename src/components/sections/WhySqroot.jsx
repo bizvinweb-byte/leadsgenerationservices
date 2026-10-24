@@ -45,7 +45,7 @@ export default function WhySqroot() {
   return (
     <section
       id="why-sqroot"
-      aria-label="Why Choose Sqroot as Your Meta Ads Partner"
+      aria-label="Why Choose Brandmingo as Your Meta Ads Partner"
       className="site-section relative w-full bg-white overflow-hidden"
     >
       {/* Background Ambient Radial Glow */}
@@ -60,12 +60,12 @@ export default function WhySqroot() {
             {/* Tag Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#fff5ec] border border-[#ffeedd] text-xs font-bold text-[#fb8002] tracking-wider uppercase shadow-2xs">
               <span className="w-2 h-2 rounded-full bg-[#fb8002] animate-pulse" />
-              <span>WHY SQROOT</span>
+              <span>WHY BRANDMINGO</span>
             </div>
 
             {/* Main Headline with Hand-Drawn Curve Underline */}
             <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-bold text-[#0b0f19] tracking-tight leading-[1.16]">
-              Why Choose Sqroot as
+              Why Choose Brandmingo as
               <br className="hidden sm:inline" />
               {" "}Your{" "}
               <span className="text-[#fb8002]">
@@ -117,7 +117,7 @@ export default function WhySqroot() {
               </p>
 
               <p>
-                At Sqroot, we blend creative intelligence with data science to
+                At Brandmingo, we blend creative intelligence with data science to
                 build campaigns that don&apos;t just get views — they drive
                 conversions, leads, and revenue.
               </p>
@@ -151,7 +151,7 @@ export default function WhySqroot() {
             <div className="pt-2 sm:pt-3 space-y-2.5">
               <button
                 type="button"
-                onClick={() => openModal("Why Sqroot Section")}
+                onClick={() => openModal("Why Brandmingo Section")}
                 className="inline-flex items-center justify-center gap-3 px-8 py-3.5 rounded-full bg-gradient-to-r from-[#fb8002] to-[#fa5500] hover:from-[#fa5500] hover:to-[#ea4e00] text-white font-bold text-sm tracking-wide shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/35 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300 group cursor-pointer"
               >
                 <span>BOOK A STRATEGY CALL</span>
@@ -175,7 +175,7 @@ export default function WhySqroot() {
             <div className="relative w-full max-w-[520px] lg:max-w-[560px] transition-transform duration-500 ease-out hover:scale-[1.015]">
               <Image
                 src="/images/WhyChoose.png"
-                alt="Why Choose Sqroot as Your Performance Marketing & Meta Ads Lead Generation Partner - Brandmingo"
+                alt="Why Choose Brandmingo as Your Performance Marketing & Meta Ads Lead Generation Partner"
                 width={1214}
                 height={1295}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 500px, 560px"
