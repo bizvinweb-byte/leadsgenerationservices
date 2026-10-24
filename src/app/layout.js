@@ -69,7 +69,7 @@ export const metadata = {
       "Looking for verified, high-intent sales leads in Noida & Delhi NCR? Partner with Brandmingo for data-driven Meta Ads, Google Ads & automated qualifying funnels.",
     images: [
       {
-        url: "/images/logo/white-logo.png",
+        url: "/images/logo/blacktransprint.png",
         width: 1200,
         height: 630,
         alt: "Brandmingo - Lead Generation Services in Noida",
@@ -81,7 +81,7 @@ export const metadata = {
     title: "Lead Generation Services in Noida | Brandmingo",
     description:
       "Get high-converting, sales-qualified B2B & B2C leads in Noida & Delhi NCR using performance marketing funnels by Brandmingo.",
-    images: ["/images/logo/white-logo.png"],
+    images: ["/images/logo/blacktransprint.png"],
   },
   category: "Business & Marketing",
 };
@@ -96,7 +96,7 @@ export default function RootLayout({ children }) {
         name: "Brandmingo",
         legalName: "Brandmingo Media Pvt. Ltd.",
         url: "https://brandmingo.com",
-        logo: "https://leadsgenerationservices.in/images/logo/white-logo.png",
+        logo: "https://leadsgenerationservices.in/images/logo/blacktransprint.png",
         sameAs: [
           "https://www.linkedin.com/company/brandmingo",
           "https://instagram.com/brandmingo",
@@ -119,7 +119,7 @@ export default function RootLayout({ children }) {
         parentOrganization: {
           "@id": "https://brandmingo.com/#organization",
         },
-        image: "https://leadsgenerationservices.in/images/logo/white-logo.png",
+        image: "https://leadsgenerationservices.in/images/logo/blacktransprint.png",
         telephone: "+91-9990613140",
         priceRange: "$$",
         address: {

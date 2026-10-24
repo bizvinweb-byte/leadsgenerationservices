@@ -109,16 +109,18 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.3fr_0.85fr_0.9fr_0.75fr_1.4fr] gap-6 lg:gap-8 pb-6 sm:pb-8">
           {/* Column 1: Brand Info & 3 Badges in 1 Single Row */}
           <div className="space-y-3">
-            <Link href="/" className="inline-block group focus:outline-none">
-              <div className="relative h-8 sm:h-9 lg:h-10 w-36 sm:w-42 lg:w-46 transition-transform duration-200 group-hover:scale-105">
-                <Image
-                  src="/images/logo/white-logo.png"
-                  alt="Brandmingo - Top Performance Marketing & Lead Generation Company in India"
-                  fill
-                  priority
-                  sizes="(max-width: 640px) 140px, 180px"
-                  className="object-contain object-left"
-                />
+            <Link href="/" className="inline-block group focus:outline-none" aria-label="Brandmingo Homepage">
+              <div className="bg-white rounded-full px-4 sm:px-4.5 py-1.5 sm:py-2 shadow-sm ring-1 ring-white/60 group-hover:shadow-md group-hover:scale-105 transition-all duration-200 inline-flex items-center justify-center">
+                <div className="relative h-6.5 sm:h-7.5 lg:h-8 w-32 sm:w-36 lg:w-40">
+                  <Image
+                    src="/images/logo/blacktransprint.png"
+                    alt="Brandmingo - Top Performance Marketing & Lead Generation Company in India"
+                    fill
+                    priority
+                    sizes="(max-width: 640px) 140px, 180px"
+                    className="object-contain object-center"
+                  />
+                </div>
               </div>
             </Link>
 

@@ -86,23 +86,25 @@ export default function Navbar() {
           {/* Subtle glossy glass wave overlay */}
           <div className="absolute inset-0 rounded-full pointer-events-none bg-[radial-gradient(ellipse_at_top,_rgba(255,255,255,0.25),_transparent_75%)]" />
 
-          {/* COLUMN 1: Brandmingo Logo (Proportionate on Laptop & Desktop) */}
+          {/* COLUMN 1: Brandmingo Logo with White Round Patch */}
           <div className="relative z-10 flex-1 flex items-center justify-start">
             <Link
               href="/"
               onClick={() => setActiveSection("hero")}
-              className="flex items-center group focus:outline-none"
+              className="inline-flex items-center group focus:outline-none"
               aria-label="Brandmingo Homepage"
             >
-              <div className="relative h-7 sm:h-8 lg:h-9 xl:h-9.5 w-28 sm:w-34 lg:w-38 xl:w-42 transition-transform duration-200 group-hover:scale-105">
-                <Image
-                  src="/images/logo/white-logo.png"
-                  alt="Brandmingo - Performance Marketing & Lead Generation Services in India"
-                  fill
-                  priority
-                  sizes="(max-width: 640px) 120px, (max-width: 1024px) 150px, 175px"
-                  className="object-contain object-left"
-                />
+              <div className="bg-white rounded-full px-3.5 sm:px-4 py-1.5 sm:py-2 shadow-sm ring-1 ring-white/60 group-hover:shadow-md group-hover:scale-105 transition-all duration-200 flex items-center justify-center">
+                <div className="relative h-6 sm:h-7 lg:h-7.5 w-28 sm:w-32 lg:w-36">
+                  <Image
+                    src="/images/logo/blacktransprint.png"
+                    alt="Brandmingo - Performance Marketing & Lead Generation Services in India"
+                    fill
+                    priority
+                    sizes="(max-width: 640px) 120px, (max-width: 1024px) 140px, 160px"
+                    className="object-contain object-center"
+                  />
+                </div>
               </div>
             </Link>
           </div>
@@ -174,14 +176,16 @@ export default function Navbar() {
           <div className="relative z-50 mx-4 mt-4 sm:mx-6 sm:mt-6 rounded-[2rem] bg-white border border-slate-100 shadow-2xl overflow-hidden animate-in fade-in slide-in-from-top-4 duration-250">
             {/* Top Bar with Prominent Logo & Close Button */}
             <div className="px-6 py-4 bg-gradient-to-r from-[#fb8002] via-[#fa5500] to-[#f03c00] flex items-center justify-between">
-              <div className="relative h-8 w-34">
-                <Image
-                  src="/images/logo/white-logo.png"
-                  alt="Brandmingo - Performance Marketing & Lead Generation Services in India"
-                  fill
-                  priority
-                  className="object-contain object-left"
-                />
+              <div className="bg-white rounded-full px-3.5 py-1.5 shadow-sm flex items-center justify-center">
+                <div className="relative h-6.5 w-30">
+                  <Image
+                    src="/images/logo/blacktransprint.png"
+                    alt="Brandmingo - Performance Marketing & Lead Generation Services in India"
+                    fill
+                    priority
+                    className="object-contain object-center"
+                  />
+                </div>
               </div>
               <button
                 type="button"
