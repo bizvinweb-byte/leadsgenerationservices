@@ -1,7 +1,27 @@
 "use client";
 
+import Image from "next/image";
 import StrategyCallForm from "@/components/forms/StrategyCallForm";
 import { Star, ShieldCheck, TrendingUp, Award } from "lucide-react";
+
+const clientAvatars = [
+  {
+    name: "Tiffytots",
+    url: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1792752788/tiffytots_vtf3mg.png",
+  },
+  {
+    name: "Picturejar",
+    url: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1792752794/picturejar_pxbjck.png",
+  },
+  {
+    name: "Azend",
+    url: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1792752784/azend_tl13fi.png",
+  },
+  {
+    name: "Boyomo",
+    url: "https://brandmingo.com/Cloudinary-images/2_etbkdt.png",
+  },
+];
 
 export default function Hero() {
   return (
@@ -95,18 +115,20 @@ export default function Hero() {
               {/* Avatar Stack + Star Rating */}
               <div className="flex items-center gap-3">
                 <div className="flex -space-x-2">
-                  <div className="w-8 h-8 rounded-full bg-gradient-to-br from-[#fb8002] to-[#fa5500] text-white flex items-center justify-center text-[10px] font-bold ring-2 ring-white">
-                    BM
-                  </div>
-                  <div className="w-8 h-8 rounded-full bg-slate-800 text-white flex items-center justify-center text-[10px] font-bold ring-2 ring-white">
-                    RE
-                  </div>
-                  <div className="w-8 h-8 rounded-full bg-orange-400 text-white flex items-center justify-center text-[10px] font-bold ring-2 ring-white">
-                    D2C
-                  </div>
-                  <div className="w-8 h-8 rounded-full bg-slate-700 text-white flex items-center justify-center text-[10px] font-bold ring-2 ring-white">
-                    SaaS
-                  </div>
+                  {clientAvatars.map((client, idx) => (
+                    <div
+                      key={idx}
+                      className="relative w-8 h-8 rounded-full overflow-hidden bg-white ring-2 ring-white shadow-sm flex items-center justify-center p-1 border border-slate-100"
+                    >
+                      <Image
+                        src={client.url}
+                        alt={`${client.name} - Brandmingo Client`}
+                        width={32}
+                        height={32}
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  ))}
                 </div>
                 <div className="text-left">
                   <div className="flex items-center gap-0.5 text-amber-500">
@@ -125,7 +147,7 @@ export default function Hero() {
                   <Award className="w-3.5 h-3.5 text-[#fb8002]" />
                 </div>
                 <div className="text-left">
-                  <p className="font-bold text-slate-900 leading-tight">₹45Cr+ Ad Spend</p>
+                  <p className="font-bold text-slate-900 leading-tight">₹3Cr+ Ad Spend</p>
                   <p className="text-[11px] text-slate-500 leading-tight">Managed with 3.8x Avg ROAS</p>
                 </div>
               </div>
