@@ -10,16 +10,16 @@ const clientAvatars = [
     url: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1792752788/tiffytots_vtf3mg.png",
   },
   {
-    name: "Picturejar",
-    url: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1792752794/picturejar_pxbjck.png",
+    name: "Suryatra",
+    url: "https://brandmingo.com/Cloudinary-images/11_epm0ux.png",
   },
   {
-    name: "Azend",
-    url: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1792752784/azend_tl13fi.png",
+    name: "Cliva",
+    url: "https://brandmingo.com/Cloudinary-images/14_ekrye0.png",
   },
   {
-    name: "Boyomo",
-    url: "https://brandmingo.com/Cloudinary-images/2_etbkdt.png",
+    name: "MC Partner",
+    url: "https://brandmingo.com/Cloudinary-images/10_lwmtta.png",
   },
 ];
 
@@ -113,41 +113,44 @@ export default function Hero() {
             {/* Social Proof & Credibility Bar (Human, Trusted & Authoritative) */}
             <div className="pt-2 sm:pt-3 flex flex-wrap items-center gap-4 sm:gap-6 border-t border-slate-100">
               {/* Avatar Stack + Star Rating */}
-              <div className="flex items-center gap-3">
-                <div className="flex -space-x-2">
+              <div className="flex items-center gap-3.5">
+                <div className="flex -space-x-2.5 hover:space-x-1 transition-all duration-300">
                   {clientAvatars.map((client, idx) => (
                     <div
                       key={idx}
-                      className="relative w-8 h-8 rounded-full overflow-hidden bg-white ring-2 ring-white shadow-sm flex items-center justify-center p-1 border border-slate-100"
+                      title={client.name}
+                      className="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full overflow-hidden bg-white ring-2 ring-white shadow-md shadow-orange-500/10 hover:shadow-lg hover:scale-110 hover:z-20 transition-all duration-200 flex items-center justify-center p-1.5 border border-orange-200/80 cursor-pointer"
                     >
                       <Image
                         src={client.url}
                         alt={`${client.name} - Brandmingo Client`}
-                        width={32}
-                        height={32}
+                        width={44}
+                        height={44}
                         className="w-full h-full object-contain"
                       />
                     </div>
                   ))}
                 </div>
                 <div className="text-left">
-                  <div className="flex items-center gap-0.5 text-amber-500">
+                  <div className="flex items-center gap-1 text-amber-500">
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-3.5 h-3.5 fill-amber-500 text-amber-500" />
+                      <Star key={i} className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
                     ))}
-                    <span className="text-xs font-bold text-slate-800 ml-1.5">4.9/5</span>
+                    <span className="text-xs font-extrabold text-slate-800 ml-1">4.9/5</span>
                   </div>
-                  <p className="text-[11px] text-slate-500 font-medium">Trusted by 120+ Scaling Brands</p>
+                  <p className="text-[11.5px] text-slate-600 font-semibold tracking-tight">
+                    Trusted by <span className="text-[#fb8002] font-bold">120+</span> Brands
+                  </p>
                 </div>
               </div>
 
               {/* Verified Performance Metric Badge */}
-              <div className="hidden sm:flex items-center gap-2 pl-4 border-l border-slate-200 text-xs">
-                <div className="w-7 h-7 rounded-full bg-orange-50 flex items-center justify-center shrink-0">
-                  <Award className="w-3.5 h-3.5 text-[#fb8002]" />
+              <div className="hidden sm:flex items-center gap-2.5 pl-5 border-l border-slate-200 text-xs">
+                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-[#fff5ec] to-[#ffeedd] border border-[#fb8002]/25 flex items-center justify-center shrink-0 shadow-sm">
+                  <Award className="w-4 h-4 text-[#fb8002]" />
                 </div>
                 <div className="text-left">
-                  <p className="font-bold text-slate-900 leading-tight">₹3Cr+ Ad Spend</p>
+                  <p className="font-extrabold text-slate-900 leading-tight tracking-tight">₹3Cr+ Ad Spend</p>
                   <p className="text-[11px] text-slate-500 leading-tight">Managed with 3.8x Avg ROAS</p>
                 </div>
               </div>
