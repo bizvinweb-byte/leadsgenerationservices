@@ -1,0 +1,11 @@
+export { default as Hero } from "./Hero";
+export { default as TrustedBrands } from "./TrustedBrands";
+export { default as Opportunity } from "./Opportunity";
+export { default as CaseStudy } from "./CaseStudy";
+export { default as WhySqroot } from "./WhySqroot";
+export { default as OurServices } from "./OurServices";
+export { default as PerformanceMarketing } from "./PerformanceMarketing";
+export { default as OurProcess } from "./OurProcess";
+export { default as SearchingForUs } from "./SearchingForUs";
+export { default as ClientReviews } from "./ClientReviews";
+export { default as GetStarted } from "./GetStarted";
