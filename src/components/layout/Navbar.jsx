@@ -98,7 +98,7 @@ export default function Navbar() {
                 <div className="relative h-6 sm:h-7 lg:h-7.5 w-28 sm:w-32 lg:w-36">
                   <Image
                     src="/images/logo/blacktransprint.png"
-                    alt="Brandmingo - Performance Marketing & Lead Generation Services in India"
+                    alt="Brandmingo - Best Lead Generation Service in Noida & India | B2B & B2C Agency"
                     fill
                     priority
                     sizes="(max-width: 640px) 120px, (max-width: 1024px) 140px, 160px"
@@ -180,7 +180,7 @@ export default function Navbar() {
                 <div className="relative h-6.5 w-30">
                   <Image
                     src="/images/logo/blacktransprint.png"
-                    alt="Brandmingo - Performance Marketing & Lead Generation Services in India"
+                    alt="Brandmingo - Best Lead Generation Service in Noida & India | B2B & B2C Agency"
                     fill
                     priority
                     className="object-contain object-center"

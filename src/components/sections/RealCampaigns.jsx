@@ -35,7 +35,7 @@ export default function RealCampaigns() {
       dashboardAccount: "Career Clinic Ad Account (Results from 155 campaigns)",
       imageSrc: "/images/one.jpg",
       imageAlt:
-        "Meta Ads Manager Dashboard showing ₹17.64 Lakhs Ad Spend, 22,000+ MQLs, 1.85 Crore Impressions for Education Admission Campaigns",
+        "Meta Ads Dashboard - Best Lead Generation Service in Noida & India Education Admission Campaigns ₹17.64L Spend 22,000+ MQLs by Brandmingo",
       metrics: [
         {
           icon: BarChart3,
@@ -75,7 +75,7 @@ export default function RealCampaigns() {
       dashboardAccount: "Velence Official (Results from 59 campaigns)",
       imageSrc: "/images/tow.jpg",
       imageAlt:
-        "Meta Ads Manager Dashboard showing 44 days, 2,106 Purchases, 3.28X ROAS for D2C Brand scaled by Brandmingo",
+        "Meta Ads Manager Dashboard - D2C Purchase Growth & Best Lead Generation Service in India 3.28X ROAS by Brandmingo",
       metrics: [
         {
           icon: BarChart3,
@@ -115,7 +115,7 @@ export default function RealCampaigns() {
       dashboardAccount: "AANI Health & Wellness (Results from 44 campaigns)",
       imageSrc: "/images/three.jpg",
       imageAlt:
-        "Meta Ads Manager Dashboard showing ₹52.57 Lakhs Revenue from Prepaid Orders at 2.49X ROAS by Brandmingo",
+        "Meta Ads Dashboard - Health & Wellness Funnels Best Lead Generation Company in Noida ₹52.57L Revenue by Brandmingo",
       metrics: [
         {
           icon: BarChart3,
@@ -430,7 +430,7 @@ export default function RealCampaigns() {
                   <div className="relative w-16 sm:w-20 h-10 sm:h-12 rounded-lg overflow-hidden border border-slate-200 shrink-0 bg-white">
                     <Image
                       src={study.imageSrc}
-                      alt={`${study.title} - Meta Ads & Performance Marketing Lead Generation Case Study by Brandmingo`}
+                      alt={`${study.title} - Best Lead Generation Service in Noida & India Case Study by Brandmingo`}
                       fill
                       sizes="80px"
                       className="object-cover object-top"

@@ -13,57 +13,57 @@ export default function TrustedBrands() {
     {
       name: "Tiffytots",
       url: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1792752788/tiffytots_vtf3mg.png",
-      alt: "Tiffytots - Scaled with Brandmingo Lead Generation & Performance Marketing",
+      alt: "Tiffytots - Scaled with Brandmingo Best Lead Generation Service in Noida & India",
     },
     {
       name: "Picturejar",
       url: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1792752794/picturejar_pxbjck.png",
-      alt: "Picturejar - Meta Ads & High-Converting Leads Client of Brandmingo",
+      alt: "Picturejar - Meta Ads & Best Lead Generation Services in Noida by Brandmingo",
     },
     {
       name: "Azend",
       url: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1792752784/azend_tl13fi.png",
-      alt: "Azend - D2C Performance Marketing & ROAS Scaling Partner",
+      alt: "Azend - Lead Generation Service in India Client Scaled by Brandmingo",
     },
     {
       name: "D2C Brand Partner",
       url: "https://brandmingo.com/Cloudinary-images/15_aui2yn.png",
-      alt: "High-Growth Brand Partner Scaled by Brandmingo Lead Generation Agency",
+      alt: "High-Growth Brand - Scaled by Best Lead Generation Company in Noida Brandmingo",
     },
     {
       name: "Enterprise Client",
       url: "https://brandmingo.com/Cloudinary-images/14_ekrye0.png",
-      alt: "Performance Marketing & Customer Acquisition Client of Brandmingo",
+      alt: "Enterprise Client - Best Lead Generation Service in Noida & Delhi NCR",
     },
     {
       name: "Growth Partner",
       url: "https://brandmingo.com/Cloudinary-images/11_epm0ux.png",
-      alt: "Enterprise Brand Generating High-Intent Qualified Leads with Brandmingo",
+      alt: "Enterprise Brand Generating High-Intent Leads with Brandmingo Lead Generation Service in India",
     },
     {
       name: "High-Ticket Client",
       url: "https://brandmingo.com/Cloudinary-images/10_lwmtta.png",
-      alt: "Real Estate & High-Ticket Lead Generation Client of Brandmingo",
+      alt: "Real Estate & High-Ticket Lead Generation Services in Noida Client",
     },
     {
       name: "E-Commerce Leader",
       url: "https://brandmingo.com/Cloudinary-images/2_etbkdt.png",
-      alt: "E-Commerce ROAS Optimization & Meta Ads Growth Client",
+      alt: "E-Commerce ROAS Optimization & Best Lead Generation Service in India",
     },
     {
       name: "Fast Scaling D2C",
       url: "https://brandmingo.com/Cloudinary-images/4_ky3yra.png",
-      alt: "D2C Brand Scaling Revenue with Brandmingo Paid Media Funnels",
+      alt: "D2C Brand - Scaled by Best Lead Generation Agency in Noida Brandmingo",
     },
     {
       name: "Tech SaaS Partner",
       url: "https://brandmingo.com/Cloudinary-images/14_xe4e63.png",
-      alt: "B2B SaaS Lead Generation & Pipeline Scaling Client of Brandmingo",
+      alt: "B2B SaaS Lead Generation Service in Noida & India - Brandmingo Client",
     },
     {
       name: "Healthcare Partner",
       url: "https://brandmingo.com/Cloudinary-images/3_wehha6.png",
-      alt: "Healthcare & High-Ticket Consultation Lead Generation Partner",
+      alt: "Healthcare & High-Ticket Lead Generation Service in Noida Partner",
     },
   ];
 

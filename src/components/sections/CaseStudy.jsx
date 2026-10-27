@@ -31,42 +31,42 @@ export default function CaseStudy() {
     {
       name: "Tiffytots",
       url: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1792752788/tiffytots_vtf3mg.png",
-      alt: "Tiffytots - Scaled with Brandmingo Meta Ads & Performance Marketing",
+      alt: "Tiffytots - Scaled with Brandmingo Best Lead Generation Service in Noida & India",
     },
     {
       name: "Picturejar",
       url: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1792752794/picturejar_pxbjck.png",
-      alt: "Picturejar - High-Converting Lead Generation Client of Brandmingo",
+      alt: "Picturejar - Meta Ads & Best Lead Generation Services in Noida by Brandmingo",
     },
     {
       name: "High-Ticket Client",
       url: "https://brandmingo.com/Cloudinary-images/10_lwmtta.png",
-      alt: "Real Estate & High-Ticket Lead Generation Client of Brandmingo",
+      alt: "Real Estate & High-Ticket Lead Generation Company in Noida Client",
     },
     {
       name: "Brand Partner",
       url: "https://brandmingo.com/Cloudinary-images/15_aui2yn.png",
-      alt: "High-Growth Brand Partner Scaled by Brandmingo",
+      alt: "High-Growth Brand - Scaled by Best Lead Generation Agency in Noida",
     },
     {
       name: "Cliva",
       url: "https://brandmingo.com/Cloudinary-images/14_ekrye0.png",
-      alt: "Cliva - Scaled Paid Funnels Client of Brandmingo",
+      alt: "Cliva - Lead Generation Service in India Client Scaled by Brandmingo",
     },
     {
       name: "Suryatra",
       url: "https://brandmingo.com/Cloudinary-images/11_epm0ux.png",
-      alt: "Suryatra - High-Intent Qualified Leads Client",
+      alt: "Suryatra - Best Lead Generation Service Client in Noida & Delhi NCR",
     },
     {
       name: "Fast Scaling D2C",
       url: "https://brandmingo.com/Cloudinary-images/4_ky3yra.png",
-      alt: "D2C Brand Scaling Revenue with Brandmingo Paid Media Funnels",
+      alt: "D2C Brand - High ROAS Lead Generation Service in India",
     },
     {
       name: "Bovomo",
       url: "https://brandmingo.com/Cloudinary-images/2_etbkdt.png",
-      alt: "Bovomo - E-Commerce ROAS Optimization Partner",
+      alt: "Bovomo - E-Commerce Performance Marketing & Lead Generation Services Partner",
     },
   ];
 
@@ -163,7 +163,7 @@ export default function CaseStudy() {
             <div className="relative w-full max-w-[320px] sm:max-w-[360px] lg:max-w-[400px] transition-transform duration-500 ease-out hover:scale-[1.015]">
               <Image
                 src="/images/case study.png"
-                alt="PawsIndia E-commerce Performance Marketing & High-Converting Leads Case Study by Brandmingo"
+                alt="PawsIndia E-commerce Scaling - Best Lead Generation Service in Noida & India Case Study by Brandmingo"
                 width={1229}
                 height={1280}
                 sizes="(max-width: 640px) 300px, (max-width: 1024px) 360px, 400px"

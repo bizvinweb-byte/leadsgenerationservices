@@ -121,7 +121,7 @@ export default function Hero() {
                     >
                       <Image
                         src={client.url}
-                        alt={`${client.name} - Brandmingo Client`}
+                        alt={`${client.name} - Scaled with Brandmingo Best Lead Generation Service in Noida & India`}
                         width={44}
                         height={44}
                         className="w-full h-full object-contain"

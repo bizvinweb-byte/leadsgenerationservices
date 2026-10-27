@@ -175,7 +175,7 @@ export default function WhySqroot() {
             <div className="relative w-full max-w-[520px] lg:max-w-[560px] transition-transform duration-500 ease-out hover:scale-[1.015]">
               <Image
                 src="/images/WhyChoose.png"
-                alt="Why Choose Brandmingo as Your Performance Marketing & Meta Ads Lead Generation Partner"
+                alt="Why Choose Brandmingo - Best Lead Generation Service in Noida & Delhi NCR | Meta & Google Ads Company"
                 width={1214}
                 height={1295}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 500px, 560px"

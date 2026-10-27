@@ -129,7 +129,7 @@ export default function Opportunity() {
             <div className="relative w-full max-w-[540px] lg:max-w-[580px] group transition-transform duration-500 ease-out hover:scale-[1.015]">
               <Image
                 src="/images/OPPORTUNITY.png"
-                alt="Why Meta Ads Dominate The Digital Marketing Landscape - Facebook & Instagram Lead Generation Funnels by Brandmingo"
+                alt="Meta & Google Ads Funnels Comparison - Best Lead Generation Service in Noida & India by Brandmingo"
                 width={1353}
                 height={1163}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 500px, 580px"

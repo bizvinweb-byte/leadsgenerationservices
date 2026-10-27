@@ -119,7 +119,7 @@ export default function Footer() {
                 <div className="relative h-6.5 sm:h-7.5 lg:h-8 w-32 sm:w-36 lg:w-40">
                   <Image
                     src="/images/logo/blacktransprint.png"
-                    alt="Brandmingo - Top Performance Marketing & Lead Generation Company in India"
+                    alt="Brandmingo - Best Lead Generation Service in Noida & India | #1 Performance Marketing Agency"
                     fill
                     priority
                     sizes="(max-width: 640px) 140px, 180px"

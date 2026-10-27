@@ -327,7 +327,7 @@ export default function ClientReviews() {
                     <div className="relative w-9 h-9 rounded-full overflow-hidden bg-white ring-1 ring-slate-200 shrink-0 p-0.5 flex items-center justify-center">
                       <Image
                         src={rev.avatarUrl}
-                        alt={rev.name}
+                        alt={`${rev.name} - Review for Best Lead Generation Service in Noida by Brandmingo`}
                         width={36}
                         height={36}
                         className="w-full h-full object-contain"
