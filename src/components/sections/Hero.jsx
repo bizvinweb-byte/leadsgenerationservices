@@ -51,12 +51,12 @@ export default function Hero() {
             {/* Tag Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#fff5ec] border border-[#ffeedd] text-xs font-bold text-[#fb8002] tracking-wider uppercase shadow-2xs">
               <span className="w-2 h-2 rounded-full bg-[#fb8002] animate-pulse" />
-              <span>Performance Marketing &bull; Lead Generation</span>
+              <span>#1 Lead Generation Services in Noida &bull; Pan-India</span>
             </div>
 
             {/* Main H1 Headline with Refined 700 Font Weight & Exact Hand-Drawn Underline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-bold text-[#0b0f19] tracking-tight leading-[1.12]">
-              Drive Scalable Growth with India&apos;s Leading{" "}
+              Best{" "}
               <span className="text-[#fb8002]">
                 <span className="relative inline-block">
                   Lead Generation
@@ -86,16 +86,14 @@ export default function Hero() {
                     />
                   </svg>
                 </span>{" "}
-                Agency
-              </span>
+                Services
+              </span>{" "}
+              in Noida &amp; India
             </h1>
 
             {/* Sub-Headline Paragraph 1 - Clear, Professional & Authoritative */}
             <p className="text-sm sm:text-base lg:text-[16.5px] text-slate-700 leading-relaxed font-normal">
-              If you&apos;re looking to unlock serious ROI on{" "}
-              <strong className="font-semibold text-slate-900">Facebook, Instagram, and Google Ads</strong>, you
-              need more than just a basic ad setup &mdash; you need expert strategy, tested high-intent creatives,
-              advanced audience targeting, and continuous funnel optimization.
+              If you&apos;re searching for the <strong className="font-semibold text-slate-900">best lead generation service in Noida</strong> or scaling high-ticket sales across India, you need verified, high-intent buyers &mdash; not empty clicks. At <strong className="font-semibold text-slate-900">Brandmingo</strong>, we architect performance-driven Meta Ads, Google Ads &amp; conversion funnels that transform ad spend into predictable revenue.
             </p>
 
             {/* Sub-Headline Paragraph 2 - Natural Agency Positioning (No AI Keyword Rainbow) */}

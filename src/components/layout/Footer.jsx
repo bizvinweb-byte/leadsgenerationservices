@@ -12,6 +12,7 @@ import {
   ChevronRight,
   ChevronDown,
   CheckCircle2,
+  MapPin,
 } from "lucide-react";
 import {
   FaLinkedinIn,
@@ -19,6 +20,7 @@ import {
   FaFacebookF,
   FaXTwitter,
 } from "react-icons/fa6";
+import { LOCATIONS } from "@/data/locations";
 
 export default function Footer() {
   const { openModal } = useStrategyModal();
@@ -83,14 +85,17 @@ export default function Footer() {
   ];
 
   const popularSearches = [
-    "Lead Generation Services in Noida",
-    "Performance Marketing Agency Noida",
-    "Meta Ads Agency Noida",
-    "B2B Lead Generation Delhi NCR",
+    "Lead Generation Service in Noida",
+    "Best Lead Generation Service in Noida",
+    "Lead Generation Service in India",
+    "Best Lead Generation Service",
+    "Lead Generation Service",
+    "Best Lead Generation Company in Noida",
+    "B2B Lead Generation Services Noida",
     "Real Estate Lead Generation Noida",
-    "Google Ads Expert Noida",
-    "E-Commerce ROAS Optimization",
-    "High-Ticket Lead Generation",
+    "Performance Marketing Agency Noida",
+    "Google Ads Agency Noida",
+    "Meta Ads Agency Noida",
     "Brandmingo Noida",
   ];
 
@@ -404,6 +409,34 @@ export default function Footer() {
                   {item}
                 </button>
                 {index < popularSearches.length - 1 && (
+                  <span className="text-white/40">|</span>
+                )}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* ===================================================================
+            LOCATIONS SERVED SEO DIRECTORY (Dofollow Internal Links)
+            =================================================================== */}
+        <div className="mt-2 rounded-2xl bg-white/10 backdrop-blur-xs p-3 sm:p-3.5 border border-white/15 flex flex-col lg:flex-row items-start lg:items-center gap-2 sm:gap-3.5 text-xs">
+          {/* Badge */}
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/15 text-white text-[11px] font-bold shrink-0">
+            <MapPin className="w-3.5 h-3.5 text-white" />
+            <span>Locations Served</span>
+          </div>
+
+          {/* Location Links */}
+          <div className="flex flex-wrap items-center gap-x-2.5 gap-y-1 text-white/90 leading-relaxed text-[11px] sm:text-[11.5px]">
+            {LOCATIONS.map((loc, index) => (
+              <span key={loc.slug} className="inline-flex items-center gap-2.5">
+                <Link
+                  href={`/locations/${loc.slug}`}
+                  className="hover:text-white hover:underline transition-colors"
+                >
+                  {loc.name}
+                </Link>
+                {index < LOCATIONS.length - 1 && (
                   <span className="text-white/40">|</span>
                 )}
               </span>

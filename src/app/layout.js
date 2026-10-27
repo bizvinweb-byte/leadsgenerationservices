@@ -9,11 +9,21 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Lead Generation Services in Noida | #1 B2B & B2C Leads Agency - Brandmingo",
+  title: "Best Lead Generation Services in Noida & India | #1 Agency - Brandmingo",
   description:
-    "Scale your business with the top lead generation services in Noida & Delhi NCR by Brandmingo. Verified, high-intent B2B & B2C sales leads using data-driven Meta Ads, Google Ads, high-converting funnels & automated qualification.",
+    "Looking for the best lead generation service in Noida & India? Brandmingo delivers verified, high-intent B2B & B2C sales leads using data-driven Meta Ads, Google Ads & automated qualifying funnels.",
   keywords: [
+    "lead generation service in noida",
     "lead generation services in noida",
+    "best lead generation service in noida",
+    "best lead generation services in noida",
+    "best lead generation company in noida",
+    "lead generation service in india",
+    "lead generation services in india",
+    "best lead generation service",
+    "best lead generation services",
+    "lead generation service",
+    "lead generation services",
     "lead generation company in noida",
     "lead generation agency noida",
     "b2b lead generation company noida",
@@ -25,8 +35,6 @@ export const metadata = {
     "google ads agency noida",
     "lead generation services in delhi ncr",
     "b2b lead generation delhi ncr",
-    "lead generation services in india",
-    "lead generation company in india",
     "high ticket client acquisition noida",
     "brandmingo noida",
     "brandmingo lead generation",
@@ -63,24 +71,24 @@ export const metadata = {
     type: "website",
     locale: "en_IN",
     url: "https://leadsgenerationservices.in",
-    siteName: "Lead Generation Services in Noida | Brandmingo",
-    title: "Lead Generation Services in Noida | #1 B2B & B2C Leads Agency - Brandmingo",
+    siteName: "Best Lead Generation Services in Noida & India | Brandmingo",
+    title: "Best Lead Generation Services in Noida & India | #1 Agency - Brandmingo",
     description:
-      "Looking for verified, high-intent sales leads in Noida & Delhi NCR? Partner with Brandmingo for data-driven Meta Ads, Google Ads & automated qualifying funnels.",
+      "Looking for the best lead generation service in Noida & India? Partner with Brandmingo for verified, high-intent B2B & B2C sales leads using Meta Ads, Google Ads & automated qualifying funnels.",
     images: [
       {
         url: "/images/logo/blacktransprint.png",
         width: 1200,
         height: 630,
-        alt: "Brandmingo - Lead Generation Services in Noida",
+        alt: "Brandmingo - Best Lead Generation Services in Noida and India",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lead Generation Services in Noida | Brandmingo",
+    title: "Best Lead Generation Services in Noida & India | Brandmingo",
     description:
-      "Get high-converting, sales-qualified B2B & B2C leads in Noida & Delhi NCR using performance marketing funnels by Brandmingo.",
+      "Get high-converting, sales-qualified B2B & B2C leads in Noida & across India using performance marketing funnels by Brandmingo.",
     images: ["/images/logo/blacktransprint.png"],
   },
   category: "Business & Marketing",
