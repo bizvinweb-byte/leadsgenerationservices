@@ -70,8 +70,7 @@ export default function FAQSection() {
           </div>
 
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[42px] font-bold text-[#0b0f19] tracking-tight leading-[1.18]">
-            Frequently Asked Questions About{" "}
-            <span className="text-[#fb8002]">Lead Generation in Noida</span>
+            Lead Generation <span className="text-[#fb8002]">FAQs</span>
           </h2>
 
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed max-w-2xl mx-auto">
