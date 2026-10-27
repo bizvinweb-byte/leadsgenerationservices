@@ -85,17 +85,18 @@ export default function Footer() {
   ];
 
   const popularSearches = [
-    "Lead Generation Service in Noida",
-    "Best Lead Generation Service in Noida",
-    "Lead Generation Service in India",
-    "Best Lead Generation Service",
-    "Lead Generation Service",
-    "Best Lead Generation Company in Noida",
-    "B2B Lead Generation Services Noida",
+    "Lead Generation Services in Noida",
+    "Lead Generation Company in Noida",
+    "Best Lead Generation Company in Noida for Real Estate",
+    "B2B Lead Generation Companies in Noida Sector 62",
+    "Digital Marketing Lead Generation Noida",
     "Real Estate Lead Generation Noida",
     "Performance Marketing Agency Noida",
-    "Google Ads Agency Noida",
-    "Meta Ads Agency Noida",
+    "Lead Generation Services in Delhi NCR",
+    "Google Ads Lead Generation Services",
+    "Affordable Lead Generation Services",
+    "How to Get More Leads for My Business in Noida",
+    "Lead Generation Cost in India",
     "Brandmingo Noida",
   ];
 

@@ -51,16 +51,15 @@ export default function Hero() {
             {/* Tag Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#fff5ec] border border-[#ffeedd] text-xs font-bold text-[#fb8002] tracking-wider uppercase shadow-2xs">
               <span className="w-2 h-2 rounded-full bg-[#fb8002] animate-pulse" />
-              <span>#1 Lead Generation Services in Noida &bull; Pan-India</span>
+              <span>#1 Lead Generation Company in Noida &bull; Sector 62 &amp; Delhi NCR</span>
             </div>
 
             {/* Main H1 Headline with Refined 700 Font Weight & Exact Hand-Drawn Underline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-bold text-[#0b0f19] tracking-tight leading-[1.12]">
-              Best{" "}
               <span className="text-[#fb8002]">
                 <span className="relative inline-block">
-                  Lead Generation
-                  {/* Hand-drawn double-stroke curve underline strictly under Lead Generation */}
+                  Lead Generation Services
+                  {/* Hand-drawn double-stroke curve underline strictly under Lead Generation Services */}
                   <svg
                     className="absolute -bottom-1.5 sm:-bottom-2 -left-1 w-[calc(100%+6px)] h-3 sm:h-3.5 text-[#fb8002] overflow-visible pointer-events-none"
                     viewBox="0 0 240 16"
@@ -85,27 +84,19 @@ export default function Hero() {
                       strokeOpacity="0.85"
                     />
                   </svg>
-                </span>{" "}
-                Services
+                </span>
               </span>{" "}
-              in Noida &amp; India
+              in Noida
             </h1>
 
             {/* Sub-Headline Paragraph 1 - Clear, Professional & Authoritative */}
             <p className="text-sm sm:text-base lg:text-[16.5px] text-slate-700 leading-relaxed font-normal">
-              If you&apos;re searching for the <strong className="font-semibold text-slate-900">best lead generation service in Noida</strong> or scaling high-ticket sales across India, you need verified, high-intent buyers &mdash; not empty clicks. At <strong className="font-semibold text-slate-900">Brandmingo</strong>, we architect performance-driven Meta Ads, Google Ads &amp; conversion funnels that transform ad spend into predictable revenue.
+              Looking for the <strong className="font-semibold text-slate-900">best lead generation company in Noida</strong>? Whether you need <strong className="font-semibold text-slate-900">real estate lead generation in Noida</strong>, <strong className="font-semibold text-slate-900">B2B lead generation in Sector 62</strong>, or high-velocity client acquisition in Delhi NCR and Gurgaon, we deliver verified, high-intent buyers &mdash; not empty clicks.
             </p>
 
-            {/* Sub-Headline Paragraph 2 - Natural Agency Positioning (No AI Keyword Rainbow) */}
+            {/* Sub-Headline Paragraph 2 - Agency Positioning */}
             <p className="text-sm sm:text-base lg:text-[15.5px] text-slate-600 leading-relaxed font-normal">
-              At <strong className="font-semibold text-slate-900">Brandmingo</strong>, we build high-velocity client
-              acquisition funnels that deliver sales-ready, pre-qualified leads. Whether you&apos;re scaling in{" "}
-              <span className="text-slate-800 font-medium">real estate</span>,{" "}
-              <span className="text-slate-800 font-medium">e-commerce</span>,{" "}
-              <span className="text-slate-800 font-medium">BFSI &amp; fintech</span>,{" "}
-              <span className="text-slate-800 font-medium">higher education</span>, or{" "}
-              <span className="text-slate-800 font-medium">automobile dealerships</span>, we turn paid media into your
-              most predictable revenue stream.
+              At <strong className="font-semibold text-slate-900">Brandmingo</strong>, we build data-driven Meta Ads &amp; Google Ads acquisition funnels that convert ad spend into predictable revenue. Stop wasting budget on unverified databases &mdash; get qualified sales leads ready to close.
             </p>
 
             {/* Social Proof & Credibility Bar (Human, Trusted & Authoritative) */}

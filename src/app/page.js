@@ -14,6 +14,7 @@ import {
   OurProcess,
   SearchingForUs,
   ClientReviews,
+  FAQSection,
   GetStarted,
 } from "@/components/sections";
 
@@ -64,6 +65,9 @@ export default function Home() {
 
         {/* 11. Client Reviews */}
         <ClientReviews />
+
+        {/* 11b. Frequently Asked Questions (SEO & Conversions) */}
+        <FAQSection />
 
         {/* 12. Get Started */}
         <GetStarted />
