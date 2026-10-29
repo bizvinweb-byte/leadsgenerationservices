@@ -13,6 +13,7 @@ import {
   ChevronDown,
   CheckCircle2,
   MapPin,
+  Phone,
 } from "lucide-react";
 import {
   FaLinkedinIn,
@@ -133,6 +134,18 @@ export default function Footer() {
             <p className="text-white/90 text-xs leading-relaxed max-w-sm">
               We design, develop, and scale high-converting performance marketing funnels, paid media campaigns, and profitable growth engines for modern brands.
             </p>
+
+            {/* Physical NAP Consistency for Local Google SEO */}
+            <div className="pt-1 space-y-1 text-[11px] text-white/95">
+              <div className="flex items-start gap-1.5">
+                <MapPin className="w-3.5 h-3.5 text-white shrink-0 mt-0.5" />
+                <span>Sector 62, Noida, Uttar Pradesh 201309</span>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <Phone className="w-3.5 h-3.5 text-white shrink-0" />
+                <a href="tel:+919990613140" className="hover:underline font-semibold">+91 99906 13140</a>
+              </div>
+            </div>
 
             {/* 3 Trust Badges in 1 Row (No Scrollbar, Responsive Flex) */}
             <div className="flex flex-wrap sm:flex-nowrap items-center gap-2 sm:gap-2.5 pt-1">

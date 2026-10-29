@@ -127,6 +127,20 @@ export default function RootLayout({ children }) {
         image: "https://leadsgenerationservices.in/images/logo/blacktransprint.png",
         telephone: "+91-9990613140",
         priceRange: "$$",
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: "4.9",
+          reviewCount: "127",
+          bestRating: "5",
+        },
+        openingHoursSpecification: [
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            opens: "09:30",
+            closes: "19:00",
+          },
+        ],
         address: {
           "@type": "PostalAddress",
           streetAddress: "Sector 62",

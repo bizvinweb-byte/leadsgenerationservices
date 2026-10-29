@@ -9,44 +9,44 @@ export default function SearchingForUs() {
     {
       id: "q1",
       prefix: "best ",
-      highlight: "meta ads agency",
-      suffix: " near me",
-      fullQuery: "best meta ads agency near me",
+      highlight: "lead generation services in Noida",
+      suffix: "",
+      fullQuery: "best lead generation services in Noida",
     },
     {
       id: "q2",
-      prefix: "performance-focused ",
-      highlight: "facebook ad management",
-      suffix: " services",
-      fullQuery: "performance-focused facebook ad management services",
+      prefix: "top ",
+      highlight: "lead generation company in Noida",
+      suffix: " Sector 62",
+      fullQuery: "top lead generation company in Noida Sector 62",
     },
     {
       id: "q3",
-      prefix: "top ",
-      highlight: "facebook marketing companies",
-      suffix: " in India",
-      fullQuery: "top facebook marketing companies in India",
+      prefix: "verified ",
+      highlight: "real estate lead generation",
+      suffix: " Noida Expressway",
+      fullQuery: "verified real estate lead generation Noida Expressway",
     },
     {
       id: "q4",
-      prefix: "trusted ",
-      highlight: "digital marketing agency",
-      suffix: " Instagram experts",
-      fullQuery: "trusted digital marketing agency Instagram experts",
+      prefix: "high-intent ",
+      highlight: "B2B lead generation services",
+      suffix: " in Delhi NCR",
+      fullQuery: "high-intent B2B lead generation services in Delhi NCR",
     },
     {
       id: "q5",
       prefix: "affordable ",
-      highlight: "instagram marketer",
-      suffix: " for small business",
-      fullQuery: "affordable instagram marketer for small business",
+      highlight: "lead generation agency in Noida",
+      suffix: " for startups",
+      fullQuery: "affordable lead generation agency in Noida for startups",
     },
     {
       id: "q6",
-      prefix: "meta ads agency for ",
-      highlight: "e-commerce",
-      suffix: "",
-      fullQuery: "meta ads agency for e-commerce",
+      prefix: "performance-driven ",
+      highlight: "Google & Meta ads lead generation",
+      suffix: " Noida",
+      fullQuery: "performance-driven Google & Meta ads lead generation Noida",
     },
   ];
 
@@ -54,9 +54,9 @@ export default function SearchingForUs() {
   const searchIntentSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Common Meta Ads Search Queries - Brandmingo",
+    name: "Target Lead Generation Search Queries in Noida - Brandmingo",
     description:
-      "Target high-intent search queries for Meta ads, Facebook marketing and Instagram advertising services in India.",
+      "Target high-intent search queries for lead generation services in Noida, B2B business inquiries, and real estate marketing in Delhi NCR.",
     itemListElement: searchQueries.map((q, idx) => ({
       "@type": "ListItem",
       position: idx + 1,
@@ -67,7 +67,7 @@ export default function SearchingForUs() {
   return (
     <section
       id="searching-for-us"
-      aria-label="Searching for a Meta Ads Agency That Delivers Real ROI"
+      aria-label="Searching for Lead Generation Services in Noida"
       className="site-section relative w-full bg-white overflow-hidden"
     >
       {/* Schema.org ItemList for 100% Google SEO indexing */}
@@ -88,17 +88,17 @@ export default function SearchingForUs() {
           {/* Tag Badge */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#fff5ec] border border-[#ffeedd] text-xs font-bold text-[#fb8002] tracking-wider uppercase shadow-2xs">
             <span className="w-2 h-2 rounded-full bg-[#fb8002] animate-pulse" />
-            <span>SEARCHING FOR US?</span>
+            <span>SEARCHING FOR NOIDA LEADS?</span>
           </div>
 
           {/* Heading */}
           <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-bold text-[#0b0f19] tracking-tight leading-tight">
-            Searching for a Meta Ads Agency
+            Searching for Lead Generation
             <br className="hidden sm:inline" />
-            {" "}That Delivers{" "}
+            {" "}Services in{" "}
             <span className="relative inline-block text-[#fb8002]">
-              Real ROI?
-              {/* Hand-drawn double-stroke curve underline under 'Real ROI?' */}
+              Noida?
+              {/* Hand-drawn double-stroke curve underline under 'Noida?' */}
               <svg
                 className="absolute -bottom-2 sm:-bottom-2.5 left-0 w-full h-3 sm:h-3.5 text-[#fb8002] overflow-visible pointer-events-none"
                 viewBox="0 0 170 14"
@@ -125,8 +125,7 @@ export default function SearchingForUs() {
 
           {/* Subtitle */}
           <p className="text-slate-500 text-sm sm:text-base font-medium max-w-2xl mx-auto leading-relaxed pt-0.5">
-            We work with growing businesses across India that want to go beyond vanity
-            metrics and actually scale their business.
+            If you are looking for premier <strong className="font-semibold text-slate-800">lead generation services in Noida</strong> to fill your sales pipeline with verified buyers, your search ends here.
           </p>
         </div>
 

@@ -9,5 +9,6 @@ export { default as OurProcess } from "./OurProcess";
 export { default as SearchingForUs } from "./SearchingForUs";
 export { default as ClientReviews } from "./ClientReviews";
 export { default as RealCampaigns } from "./RealCampaigns";
+export { default as NoidaHubs } from "./NoidaHubs";
 export { default as FAQSection } from "./FAQSection";
 export { default as GetStarted } from "./GetStarted";

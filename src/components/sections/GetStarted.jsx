@@ -67,19 +67,19 @@ export default function GetStarted() {
             {/* Tag Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#fff5ec] border border-[#ffeedd] text-xs font-bold text-[#fb8002] tracking-wider uppercase shadow-2xs">
               <span className="w-2 h-2 rounded-full bg-[#fb8002] animate-pulse" />
-              <span>GET STARTED</span>
+              <span>GET STARTED WITH NOIDA&apos;S BEST</span>
             </div>
 
             {/* Main Headline */}
             <h2 className="text-3xl sm:text-4xl lg:text-[46px] font-bold text-[#0b0f19] tracking-tight leading-[1.15]">
               Ready to Scale
               <br />
-              Your Business
+              Your Pipeline
               <br />
               with{" "}
               <span className="relative inline-block text-[#fb8002]">
-                Meta Ads?
-                {/* Hand-drawn double-stroke curve underline under 'Meta Ads?' */}
+                Lead Generation Services in Noida?
+                {/* Hand-drawn double-stroke curve underline */}
                 <svg
                   className="absolute -bottom-2 sm:-bottom-2.5 left-0 w-full h-3 sm:h-3.5 text-[#fb8002] overflow-visible pointer-events-none"
                   viewBox="0 0 200 14"
@@ -106,9 +106,7 @@ export default function GetStarted() {
 
             {/* Editorial Subtitle */}
             <p className="text-slate-500 text-xs sm:text-sm lg:text-base font-medium max-w-xl leading-relaxed">
-              Fill out the form and our Meta Ads expert will get in touch with
-              you to understand your goals and create a custom strategy for your
-              business.
+              Book a consultation with our senior lead generation strategist in Noida Sector 62. We&apos;ll audit your current customer acquisition flow and design a high-converting growth roadmap.
             </p>
 
             {/* 3 Value Pillars (Compact on mobile, elegant on desktop) */}

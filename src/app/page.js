@@ -11,6 +11,7 @@ import {
   WhySqroot,
   OurServices,
   PerformanceMarketing,
+  NoidaHubs,
   OurProcess,
   SearchingForUs,
   ClientReviews,
@@ -55,7 +56,9 @@ export default function Home() {
 
         {/* 8. Performance Marketing */}
         <PerformanceMarketing />
-        
+
+        {/* 8b. Hyper-Local Noida Commercial Hubs & Sectors (SEO Topical Authority) */}
+        <NoidaHubs />
 
         {/* 9. Our Process */}
         <OurProcess />

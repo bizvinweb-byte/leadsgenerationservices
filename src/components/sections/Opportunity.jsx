@@ -31,14 +31,14 @@ export default function Opportunity() {
 
             {/* Main Section H2 Headline matching Reference UI */}
             <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-bold text-[#0b0f19] tracking-tight leading-[1.16]">
-              Why Meta Ads Still
+              Why Paid Ads Drive
               <br className="hidden sm:inline" />
-              {" "}Dominate The{" "}
+              {" "}The Highest ROI For{" "}
               <br className="hidden sm:inline" />
               <span className="text-[#fb8002]">
                 <span className="relative inline-block">
-                  Digital Marketing
-                  {/* Hand-drawn double-stroke curve underline under 'Digital Marketing' */}
+                  Lead Generation
+                  {/* Hand-drawn double-stroke curve underline under 'Lead Generation' */}
                   <svg
                     className="absolute -bottom-2 sm:-bottom-2.5 left-0 w-full h-3 sm:h-3.5 text-[#fb8002] overflow-visible pointer-events-none"
                     viewBox="0 0 250 14"
@@ -63,39 +63,32 @@ export default function Opportunity() {
                   </svg>
                 </span>
               </span>{" "}
-              Landscape
+              in Noida
             </h2>
 
             {/* Persuasive Editorial Copy with High-Value SEO Keywords */}
             <div className="space-y-4 text-slate-600 text-sm sm:text-[15px] lg:text-base leading-relaxed">
               <p>
-                Despite rising competition,{" "}
-                <strong className="font-semibold text-slate-900">Meta Ads</strong>{" "}
-                (Facebook + Instagram) continue to be one of the highest-converting
-                channels for both B2C and B2B brands.
+                In competitive commercial hubs like Noida and Delhi NCR, relying solely on organic reach or static directories is no longer enough to scale your pipeline.
               </p>
 
               <p>
-                With unmatched audience data, deep targeting capabilities, and a
-                massive daily user base, Meta offers the ideal platform to engage
-                customers at every stage of the funnel.
+                Targeted <strong className="font-semibold text-slate-900">lead generation services in Noida</strong> utilizing Meta Ads and Google Search capture prospects at the exact moment of commercial intent.
               </p>
 
               <p>
-                Whether you&apos;re launching a new offer, retargeting cart
-                abandoners, or running lead generation campaigns, a well-executed
-                Meta strategy can fuel exponential growth.
+                Whether you&apos;re a real estate developer booking on-site visits in Sector 150 or a B2B firm signing corporate clients in Sector 62, our automated lead generation funnels consistently deliver high-converting sales opportunities.
               </p>
 
               {/* Fixed single-line flow without orphan dot */}
               <p className="text-slate-800 font-medium pt-1">
-                But it only works when it&apos;s handled by the right{" "}
+                Partner with Brandmingo &mdash; the premier{" "}
                 <button
                   type="button"
                   onClick={() => openModal("The Opportunity Section")}
                   className="text-[#fb8002] font-semibold hover:underline decoration-[#fb8002]/40 underline-offset-4 cursor-pointer inline p-0 bg-transparent border-0 font-inherit"
                 >
-                  Meta advertising agency.
+                  lead generation company in Noida.
                 </button>
               </p>
             </div>

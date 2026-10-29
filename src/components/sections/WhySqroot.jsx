@@ -67,11 +67,11 @@ export default function WhySqroot() {
             <h2 className="text-3xl sm:text-4xl lg:text-[42px] xl:text-[44px] font-bold text-[#0b0f19] tracking-tight leading-[1.2]">
               Why Choose Brandmingo
               <br className="hidden sm:block" />
-              {" "}as Your{" "}
+              {" "}for{" "}
               <span className="text-[#fb8002]">
                 <span className="relative inline-block whitespace-nowrap">
-                  Meta Ads Partner?
-                  {/* Hand-drawn double-stroke curve underline under 'Meta Ads Partner?' */}
+                  Lead Generation Services in Noida?
+                  {/* Hand-drawn double-stroke curve underline */}
                   <svg
                     className="absolute -bottom-2 sm:-bottom-2.5 left-0 w-full h-3 sm:h-3.5 text-[#fb8002] overflow-visible pointer-events-none"
                     viewBox="0 0 260 14"
@@ -101,25 +101,19 @@ export default function WhySqroot() {
             {/* Persuasive Editorial Copy matching Reference UI */}
             <div className="space-y-3.5 text-slate-600 text-sm sm:text-[15px] lg:text-base leading-relaxed">
               <p>
-                We are not just another{" "}
+                We are recognized as the top{" "}
                 <strong className="font-semibold text-slate-900">
-                  Facebook Ads agency
+                  lead generation company in Noida
                 </strong>{" "}
-                or{" "}
+                and Delhi NCR because we never sell stale or recycled databases. Our specialized{" "}
                 <strong className="font-semibold text-slate-900">
-                  Instagram marketing agency
-                </strong>
-                . We are a{" "}
-                <strong className="font-semibold text-slate-900">
-                  performance-first Meta ads agency
+                  lead generation services in Noida
                 </strong>{" "}
-                with deep expertise in scaling paid campaigns profitably.
+                engineer custom, live acquisition pipelines designed exclusively for your business.
               </p>
 
               <p>
-                At Brandmingo, we blend creative intelligence with data science to
-                build campaigns that don&apos;t just get views — they drive
-                conversions, leads, and revenue.
+                From tech startups in <strong className="font-semibold text-slate-900">Noida Sector 62 &amp; Sector 63</strong> to luxury real estate developers along the <strong className="font-semibold text-slate-900">Noida Expressway</strong>, Brandmingo blends local market intelligence with aggressive media buying to deliver verified, sales-ready decision-makers.
               </p>
             </div>
 

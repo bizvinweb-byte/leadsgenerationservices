@@ -6,50 +6,53 @@ export default function OurServices() {
   const services = [
     {
       id: "01",
-      title: "Facebook Ads Management",
+      title: "B2B Lead Generation Services in Noida",
       description:
-        "As an experienced Facebook Ads agency, we manage your complete ad ecosystem. We tailor campaigns for every stage of the funnel — awareness, consideration, and conversion.",
-      checklistHeading: "Our Facebook Ad Management Services Include:",
+        "As the premier B2B lead generation company in Noida Sector 62 & 63, we target founders, CXOs, and corporate decision-makers. We build precision LinkedIn, Google Ads, and account-based marketing (ABM) funnels tailored for complex sales cycles.",
+      checklistHeading: "Our Noida B2B Lead Gen Solutions Include:",
       items: [
-        "Ad Account & Pixel Setup",
-        "Campaign Planning & Structuring",
-        "Target Audience Research",
-        "Creative Testing (Static + Video)",
-        "Budget Scaling & ROAS Optimization",
-        "Lead Gen, Sales, App Installs, and More",
-        "Funnel-Based Retargeting",
-        "Conversion API (CAPI) Integration",
+        "Executive & Decision-Maker Audience Targeting",
+        "Multi-Step Qualifying Funnels with OTP Validation",
+        "Direct CRM, Slack & WhatsApp Instant Lead Sync",
+        "Account-Based Marketing (ABM) for Sector 62/63 Tech Firms",
+        "Lowest Cost-Per-Qualified-Lead (CPQL) Bidding",
+        "Zero-Spam & Verified Business Email Extraction",
+        "Automated Lead Scoring & Sales Calendar Booking",
+        "Dedicated Growth Strategist & Pipeline Optimization",
       ],
     },
     {
       id: "02",
-      title: "Instagram Advertising Services",
+      title: "Real Estate Lead Generation in Noida",
       description:
-        "With visual-first content and high engagement rates, Instagram is one of the best platforms to influence purchase decisions. As your Instagram advertising agency, we make your brand stand out on Reels, Stories, Explore, and Feed.",
-      checklistHeading: "Our Instagram Marketing Services Include:",
+        "Dominating real estate client acquisition along Noida Expressway, Sector 150, and Greater Noida West. We capture verified site-visit inquiries from HNIs and genuine home investors ready to close property deals.",
+      checklistHeading: "Our Real Estate Lead Gen Systems Include:",
       items: [
-        "Reels Ad Creation & Optimization",
-        "Story Ad Strategies",
-        "Influencer-Style UGC Ads",
-        "Hashtag Targeting",
-        "Hook-Based Video Editing",
-        "Instagram Shop & Product Tag Integration",
-        "Ongoing Performance Tracking",
+        "Hyper-Local Geofencing (Noida Expressway, Sector 150 & 132)",
+        "HNI & Luxury Property Buyer Affinity Targeting",
+        "Site-Visit Booking Funnels with Micro-Budget Filters",
+        "Commercial Office & Retail Space Investor Inquiries",
+        "Automated WhatsApp & SMS Reminder Sequences",
+        "Real-Time Sales Team Notification & Call Routing",
+        "Ad Creative Testing for 2BHK/3BHK/Luxury Villas",
+        "Negative Audience Exclusions to Eliminate Window Shoppers",
       ],
     },
     {
       id: "03",
-      title: "Meta Ads Creative Strategy",
+      title: "Paid Media Lead Gen Funnels (Meta & Google)",
       description:
-        "Meta is a creative-first platform. Even the best targeting fails without the right creative strategy. At Brandmingo, we have an in-house team of copywriters, designers, editors, and media buyers who work together to test, iterate, and scale creatives.",
-      checklistHeading: "We Create:",
+        "Our high-velocity lead generation services in Noida engineer high-converting Meta Ads (Facebook & Instagram) and Google Search campaigns that turn clicks into verified, sales-ready leads at scalable unit economics.",
+      checklistHeading: "Full-Funnel Ad Campaign Management:",
       items: [
-        "Scroll-stopping visuals",
-        "UGC-style videos with voiceovers",
-        "Hook-led scripts for Reels & Stories",
-        "Product demos and explainers",
-        "Statics, Carousels, and GIF Ads",
-        "Weekly creative A/B testing",
+        "High-Converting Landing Page Design & CRO Optimization",
+        "Google Search & Intent-Driven Keyword Funnels",
+        "Meta Advantage+ Audience & Retargeting Pipelines",
+        "Conversion API (CAPI) & Server-Side Pixel Tracking",
+        "Scroll-Stopping Ad Creatives, UGC Videos & Ad Copy",
+        "Live ROAS & Real-Time Cost Per Lead (CPL) Dashboards",
+        "Weekly Creative Refresh & Dynamic A/B Testing",
+        "End-to-End Onboarding Sprint in Just 3–5 Business Days",
       ],
     },
   ];
@@ -57,7 +60,7 @@ export default function OurServices() {
   return (
     <section
       id="services"
-      aria-label="Meta Ads Services We Offer"
+      aria-label="Lead Generation Services in Noida We Offer"
       className="site-section relative w-full bg-white overflow-hidden"
     >
       {/* Background Soft Ambient Light for Depth */}
@@ -72,18 +75,16 @@ export default function OurServices() {
           {/* Tag Badge */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#fff5ec] border border-[#ffeedd] text-xs font-bold text-[#fb8002] tracking-wider uppercase shadow-2xs">
             <span className="w-2 h-2 rounded-full bg-[#fb8002] animate-pulse" />
-            <span>OUR SERVICES</span>
+            <span>OUR CORE SERVICES</span>
           </div>
 
           {/* Heading matching Reference UI */}
           <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-bold text-[#0b0f19] tracking-tight leading-tight">
-            <span className="text-[#fb8002]">Meta Ads</span> Services We Offer
+            <span className="text-[#fb8002]">Lead Generation Services in Noida</span> We Offer
           </h2>
 
           <p className="text-slate-500 text-sm sm:text-base font-medium max-w-2xl mx-auto leading-relaxed">
-            As a full-stack Meta advertising agency, we offer everything you need
-            to run high-performing Facebook and Instagram ad campaigns — from
-            creative development to strategy, media buying, and reporting.
+            As Noida&apos;s leading performance marketing and lead generation agency, we build multi-channel acquisition funnels tailored to your exact industry &mdash; delivering verified buyers, not empty clicks.
           </p>
         </div>
 

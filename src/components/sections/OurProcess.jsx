@@ -146,8 +146,8 @@ export default function OurProcess() {
           <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-bold text-[#0b0f19] tracking-tight leading-tight">
             Our{" "}
             <span className="relative inline-block text-[#fb8002]">
-              Meta Ads
-              {/* Hand-drawn double-stroke curve underline under 'Meta Ads' */}
+              Lead Generation
+              {/* Hand-drawn double-stroke curve underline */}
               <svg
                 className="absolute -bottom-2 sm:-bottom-2.5 left-0 w-full h-3 sm:h-3.5 text-[#fb8002] overflow-visible pointer-events-none"
                 viewBox="0 0 170 14"
@@ -170,13 +170,12 @@ export default function OurProcess() {
                 />
               </svg>
             </span>{" "}
-            Process
+            Process in Noida
           </h2>
 
           {/* Subtitle */}
           <p className="text-slate-500 text-sm sm:text-base font-medium max-w-2xl mx-auto leading-relaxed pt-1">
-            A structured, data-driven process to plan, execute and scale Meta ad
-            campaigns that deliver real business growth.
+            A structured, 6-step lead qualification framework engineered by Noida&apos;s leading performance marketing team to deliver sales-ready leads.
           </p>
         </div>
 

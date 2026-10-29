@@ -51,7 +51,7 @@ export default function Hero() {
             {/* Tag Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#fff5ec] border border-[#ffeedd] text-xs font-bold text-[#fb8002] tracking-wider uppercase shadow-2xs">
               <span className="w-2 h-2 rounded-full bg-[#fb8002] animate-pulse" />
-              <span>#1 Lead Generation Company in Noida &bull; Sector 62 &amp; Delhi NCR</span>
+              <span>#1 Lead Generation Services in Noida &bull; Sector 62 &amp; Delhi NCR</span>
             </div>
 
             {/* Main H1 Headline with Refined 700 Font Weight & Exact Hand-Drawn Underline */}
@@ -91,12 +91,12 @@ export default function Hero() {
 
             {/* Sub-Headline Paragraph 1 - Clear, Professional & Authoritative */}
             <p className="text-sm sm:text-base lg:text-[16.5px] text-slate-700 leading-relaxed font-normal">
-              Looking for the <strong className="font-semibold text-slate-900">best lead generation company in Noida</strong>? Whether you need <strong className="font-semibold text-slate-900">real estate lead generation in Noida</strong>, <strong className="font-semibold text-slate-900">B2B lead generation in Sector 62</strong>, or high-velocity client acquisition in Delhi NCR and Gurgaon, we deliver verified, high-intent buyers &mdash; not empty clicks.
+              Accelerate your revenue with the top-rated <strong className="font-semibold text-slate-900">lead generation services in Noida</strong>. Whether you need qualified <strong className="font-semibold text-slate-900">real estate lead generation in Noida</strong>, high-intent <strong className="font-semibold text-slate-900">B2B lead generation in Sector 62 &amp; 63</strong>, or scalable client acquisition across Delhi NCR, <strong className="font-semibold text-slate-900">Brandmingo</strong> delivers verified decision-makers ready to buy &mdash; not fake numbers or recycled databases.
             </p>
 
             {/* Sub-Headline Paragraph 2 - Agency Positioning */}
             <p className="text-sm sm:text-base lg:text-[15.5px] text-slate-600 leading-relaxed font-normal">
-              At <strong className="font-semibold text-slate-900">Brandmingo</strong>, we build data-driven Meta Ads &amp; Google Ads acquisition funnels that convert ad spend into predictable revenue. Stop wasting budget on unverified databases &mdash; get qualified sales leads ready to close.
+              As the leading <strong className="font-semibold text-slate-900">lead generation company in Noida</strong>, we build proprietary Meta Ads &amp; Google Ads funnels with multi-step qualification, OTP verification, and instant CRM sync to turn your ad spend into predictable sales.
             </p>
 
             {/* Social Proof & Credibility Bar (Human, Trusted & Authoritative) */}
